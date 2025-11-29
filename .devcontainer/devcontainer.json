@@ -1,0 +1,15 @@
+{
+  "name": "R LPA Environment",
+  "image": "rocker/tidyverse:latest",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "ms-python.python",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "postCreateCommand": "R -e \"install.packages(c('here','haven','janitor','skimr','psych','Hmisc','labelled','tidyverse'))\""
+}

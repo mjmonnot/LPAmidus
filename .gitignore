@@ -1,0 +1,30 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rproj.user
+.Rproj.user/*
+*.Rproj
+
+# Python/reticulate odds and ends
+__pycache__/
+.ipynb_checkpoints/
+
+# Data
+data_raw/
+data_derived/*.sav
+*.RData
+*.rds
+
+# OS crap
+.DS_Store
+Thumbs.db
+
+# Outputs (keep CSV/figures you want versioned if desired)
+outputs/*.html
+outputs/*.pdf
+outputs/*.png
+outputs/*.jpeg
+outputs/*.jpg
+

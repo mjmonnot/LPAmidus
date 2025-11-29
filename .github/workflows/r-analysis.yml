@@ -1,0 +1,49 @@
+name: Run MIDUS R Analyses
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "R/**.R"
+      - ".github/workflows/r-analysis.yml"
+
+jobs:
+  run-r-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: |
+            here
+            tidyverse
+            haven
+            janitor
+            skimr
+            psych
+            Hmisc
+            labelled
+
+      - name: Run Step 1 (Big Five cleaning)
+        run: Rscript R/01_midus_m1_big5_items_and_scales.R
+
+      # You can uncomment these once scripts exist and are stable
+      # - name: Run Step 2 (LPA)
+      #   run: Rscript R/02_midus_m1_lpa.R
+      #
+      # - name: Run Step 3 (3-step outcomes)
+      #   run: Rscript R/03_midus_m1_3step_outcomes.R
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: midus_outputs
+          path: outputs/
+
