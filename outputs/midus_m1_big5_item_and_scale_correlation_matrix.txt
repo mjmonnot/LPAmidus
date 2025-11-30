@@ -1,0 +1,113 @@
+Correlation matrix (r):
+                             big5_item_n big5_item_e big5_item_o big5_item_c
+big5_item_n                   1.00000000  0.10265427  0.02386442   0.1125951
+big5_item_e                   0.10265427  1.00000000  0.05232856   0.2176356
+big5_item_o                   0.02386442  0.05232856  1.00000000   0.0505669
+big5_item_c                   0.11259511  0.21763562  0.05056690   1.0000000
+big5_item_a                  -0.38260339 -0.17922112 -0.06108185  -0.1830537
+big5_scale_neuroticism       -0.24090988 -0.46263926 -0.07152766  -0.2894907
+big5_scale_extraversion      -0.10794376 -0.90719485 -0.06381550  -0.2744219
+big5_scale_openness          -0.20701767  0.14713251  0.01814958   0.2012933
+big5_scale_conscientiousness -0.11259511 -0.21763562 -0.05056690  -1.0000000
+big5_scale_agreeableness     -0.08449508 -0.47412335 -0.06423719  -0.2670254
+                             big5_item_a big5_scale_neuroticism
+big5_item_n                  -0.38260339            -0.24090988
+big5_item_e                  -0.17922112            -0.46263926
+big5_item_o                  -0.06108185            -0.07152766
+big5_item_c                  -0.18305372            -0.28949071
+big5_item_a                   1.00000000             0.25352949
+big5_scale_neuroticism        0.25352949             1.00000000
+big5_scale_extraversion       0.19771148             0.52743978
+big5_scale_openness          -0.15855545            -0.04890007
+big5_scale_conscientiousness  0.18305372             0.28949071
+big5_scale_agreeableness      0.05935205             0.34309100
+                             big5_scale_extraversion big5_scale_openness
+big5_item_n                               -0.1079438         -0.20701767
+big5_item_e                               -0.9071948          0.14713251
+big5_item_o                               -0.0638155          0.01814958
+big5_item_c                               -0.2744219          0.20129327
+big5_item_a                                0.1977115         -0.15855545
+big5_scale_neuroticism                     0.5274398         -0.04890007
+big5_scale_extraversion                    1.0000000         -0.15832325
+big5_scale_openness                       -0.1583232          1.00000000
+big5_scale_conscientiousness               0.2744219         -0.20129327
+big5_scale_agreeableness                   0.5128807         -0.16626379
+                             big5_scale_conscientiousness
+big5_item_n                                    -0.1125951
+big5_item_e                                    -0.2176356
+big5_item_o                                    -0.0505669
+big5_item_c                                    -1.0000000
+big5_item_a                                     0.1830537
+big5_scale_neuroticism                          0.2894907
+big5_scale_extraversion                         0.2744219
+big5_scale_openness                            -0.2012933
+big5_scale_conscientiousness                    1.0000000
+big5_scale_agreeableness                        0.2670254
+                             big5_scale_agreeableness
+big5_item_n                               -0.08449508
+big5_item_e                               -0.47412335
+big5_item_o                               -0.06423719
+big5_item_c                               -0.26702540
+big5_item_a                                0.05935205
+big5_scale_neuroticism                     0.34309100
+big5_scale_extraversion                    0.51288066
+big5_scale_openness                       -0.16626379
+big5_scale_conscientiousness               0.26702540
+big5_scale_agreeableness                   1.00000000
+
+P-values:
+                                          big5_item_n              big5_item_e
+big5_item_n                                        NA 0.0000000000000004440892
+big5_item_e                  0.0000000000000004440892                       NA
+big5_item_o                  0.0590193982557898344510 0.0000343907274609200897
+big5_item_c                  0.0000000000000000000000 0.0000000000000000000000
+big5_item_a                  0.0000000000000000000000 0.0000000000000000000000
+big5_scale_neuroticism       0.0000000000000000000000 0.0000000000000000000000
+big5_scale_extraversion      0.0000000000000000000000 0.0000000000000000000000
+big5_scale_openness          0.0000000000000000000000 0.0000000000000000000000
+big5_scale_conscientiousness 0.0000000000000000000000 0.0000000000000000000000
+big5_scale_agreeableness     0.0000000000214339657134 0.0000000000000000000000
+                                  big5_item_o   big5_item_c    big5_item_a
+big5_item_n                  0.05901939825579 0.00000000000 0.000000000000
+big5_item_e                  0.00003439072746 0.00000000000 0.000000000000
+big5_item_o                                NA 0.00006264399 0.000001322404
+big5_item_c                  0.00006264398793            NA 0.000000000000
+big5_item_a                  0.00000132240419 0.00000000000             NA
+big5_scale_neuroticism       0.00000001466758 0.00000000000 0.000000000000
+big5_scale_extraversion      0.00000043438892 0.00000000000 0.000000000000
+big5_scale_openness          0.15105096386190 0.00000000000 0.000000000000
+big5_scale_conscientiousness 0.00006264398793 0.00000000000 0.000000000000
+big5_scale_agreeableness     0.00000036435628 0.00000000000 0.000002612483
+                             big5_scale_neuroticism big5_scale_extraversion
+big5_item_n                        0.00000000000000         0.0000000000000
+big5_item_e                        0.00000000000000         0.0000000000000
+big5_item_o                        0.00000001466758         0.0000004343889
+big5_item_c                        0.00000000000000         0.0000000000000
+big5_item_a                        0.00000000000000         0.0000000000000
+big5_scale_neuroticism                           NA         0.0000000000000
+big5_scale_extraversion            0.00000000000000                      NA
+big5_scale_openness                0.00010860156844         0.0000000000000
+big5_scale_conscientiousness       0.00000000000000         0.0000000000000
+big5_scale_agreeableness           0.00000000000000         0.0000000000000
+                             big5_scale_openness big5_scale_conscientiousness
+big5_item_n                         0.0000000000                0.00000000000
+big5_item_e                         0.0000000000                0.00000000000
+big5_item_o                         0.1510509639                0.00006264399
+big5_item_c                         0.0000000000                0.00000000000
+big5_item_a                         0.0000000000                0.00000000000
+big5_scale_neuroticism              0.0001086016                0.00000000000
+big5_scale_extraversion             0.0000000000                0.00000000000
+big5_scale_openness                           NA                0.00000000000
+big5_scale_conscientiousness        0.0000000000                           NA
+big5_scale_agreeableness            0.0000000000                0.00000000000
+                             big5_scale_agreeableness
+big5_item_n                       0.00000000002143397
+big5_item_e                       0.00000000000000000
+big5_item_o                       0.00000036435627981
+big5_item_c                       0.00000000000000000
+big5_item_a                       0.00000261248325995
+big5_scale_neuroticism            0.00000000000000000
+big5_scale_extraversion           0.00000000000000000
+big5_scale_openness               0.00000000000000000
+big5_scale_conscientiousness      0.00000000000000000
+big5_scale_agreeableness                           NA

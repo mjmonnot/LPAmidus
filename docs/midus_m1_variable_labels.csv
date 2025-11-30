@@ -1,0 +1,2099 @@
+var_name_raw,var_name_clean,var_label
+M2ID,m2id,MIDUS 2 ID number
+M2FAMNUM,m2famnum,MIDUS 2 Family number
+SAMPLMAJ,samplmaj,Major sample identification
+A1STATUS,a1status,Completion status of M1 respondents
+A1PAGE_M2,a1page_m2,Respondent's calculated age at MIDUS 1 Project 1 phone interview
+A1PRAGE_2019,a1prage_2019,"Respondent's calculated age at MIDUS 1 Project 1 phone interview, updated as of 2019"
+M1AGE_FLAG,m1age_flag,Flag indicates status changes in M1 age
+A1PBYEAR,a1pbyear,Respondent's birth year at MIDUS 1 Project 1 phone interview
+A1PBYEAR_2019,a1pbyear_2019,"Respondent's birth year at MIDUS 1 Project 1 phone interview, updated as of 2019"
+M1BYEAR_FLAG,m1byear_flag,Flag indicates status changes in M1 birth year
+A1PRSEX,a1prsex,Respondent's sex
+QL2,ql2,Men in household age 25-74
+QL3,ql3,Women in household age 25-74
+HH_CELL,hh_cell,Household composition of M/F 25-74
+NPRB_SEX,nprb_sex,Probability of selection - gender
+SEX_CELL,sex_cell,Number of selected gender in household
+NPRB_WHO,nprb_who,Probability of selection - within gender group
+WHO,who,Position within gender group
+PROB_R,prob_r,Probability of selection on age_group
+MO,mo,Month R selected
+DAY,day,Day R selected
+RECON,recon,Recontact information status
+MO_RCVD,mo_rcvd,Month self-administered questionnaire returned
+DY_RCVD,dy_rcvd,Day self-administered questionnaire returned
+TOT_SIBS,tot_sibs,Total siblings including Main R
+ZYGCAT,zygcat,Zygotic category
+A1PI_MO,a1pi_mo,Interview date - Month
+A1PI_YR,a1pi_yr,Interview date - Year
+A1WGHT1,a1wght1,M1 Main RDD Phone sampling and post-stratification weight
+A1WGHT2,a1wght2,M1 Main RDD Phone and SAQ sampling and post-stratification weight
+A1PWGHT1,a1pwght1,M1 Main RDD Phone post-stratification weight - Education
+A1PWGHT2,a1pwght2,M1 Main RDD Phone post-stratification weight - Race
+A1PWGHT3,a1pwght3,M1 Main RDD Phone post-stratification weight - Age
+A1PWGHT4,a1pwght4,M1 Main RDD Phone post-stratification weight - Sex
+A1PWGHT5,a1pwght5,M1 Main RDD Phone post-stratification weight - Marital Status
+A1PWGHT6,a1pwght6,M1 Main RDD Phone post-stratification weight - Education x Race x Sex x Age x Marital Status
+A1PWGHT7,a1pwght7,M1 Main RDD Phone post-stratification weight - Sex x Education x Age
+A1PWGHT8,a1pwght8,M1 Main RDD Phone post-stratification weight - Race x Education x Age
+A1SWGHT1,a1swght1,M1 Main RDD Phone and SAQ post-stratification weight - Education
+A1SWGHT2,a1swght2,M1 Main RDD Phone and SAQ post-stratification weight - Race
+A1SWGHT3,a1swght3,M1 Main RDD Phone and SAQ post-stratification weight - Age
+A1SWGHT4,a1swght4,M1 Main RDD Phone and SAQ post-stratification weight - Sex
+A1SWGHT5,a1swght5,M1 Main RDD Phone and SAQ post-stratification weight - Marital Status
+A1SWGHT6,a1swght6,M1 Main RDD Phone and SAQ post-stratification weight - Education x Race x Sex x Age x Marital Status
+A1SWGHT7,a1swght7,M1 Main RDD Phone and SAQ post-stratification weight - Sex x Education x Age
+A1SWGHT8,a1swght8,M1 Main RDD Phone and SAQ post-stratification weight - Race x Education x Age
+A1PA4,a1pa4,Physical health self-evaluated
+A1PA5,a1pa5,Mental/emotional health self-evaluated
+A1PA6,a1pa6,Health compared to others your age
+A1PA7,a1pa7,Days unable to work because of health (30 days)
+A1PA7A,a1pa7a,"Reason unable to work (physical, mental, combination)"
+A1PA7BA,a1pa7ba,Number of days unable work due to physical health only
+A1PA7BB,a1pa7bb,Number of days unable work due to mental health only
+A1PA7BC,a1pa7bc,Number of days unable work due to physical and mental health
+A1PA8,a1pa8,Days cut back work because of health (30 days)
+A1PA8A,a1pa8a,"Reason cut back on work (physical, mental, combination)"
+A1PA8BA,a1pa8ba,Number of days cut back due to physical health only
+A1PA8BB,a1pa8bb,Number of days cut back due to mental health only
+A1PA8BC,a1pa8bc,Number of days cut back due to mental and physical
+A1PA9,a1pa9,Physical health at 16
+A1PA10,a1pa10,Mental health at 16
+A1PA11,a1pa11,Heart trouble suspect/confirmed by doctor
+A1PA11A,a1pa11a,Age doctor told you have heart problem
+A1PA11BA,a1pa11ba,Diagnosis - Heart attack
+A1PA11BB,a1pa11bb,Diagnosis - Angina
+A1PA11BC,a1pa11bc,Diagnosis - High blood pressure
+A1PA11BD,a1pa11bd,Diagnosis - Valve disease
+A1PA11BE,a1pa11be,Diagnosis - Hole in heart
+A1PA11BF,a1pa11bf,Diagnosis - Blocked artery
+A1PA11BG,a1pa11bg,Diagnosis - Irregular heartbeat
+A1PA11BH,a1pa11bh,Diagnosis - Heart murmur
+A1PA11BI,a1pa11bi,Diagnosis - Heart failure
+A1PA11BJ,a1pa11bj,Diagnosis - Other
+A1PA11BK,a1pa11bk,Diagnosis - None
+A1PA11C,a1pa11c,Go to hospital for heart treatment/tests
+A1PA11D,a1pa11d,Getting treatment for heart trouble now
+A1PA12,a1pa12,Ever had heart attack
+A1PA12A,a1pa12a,Year had first heart attack
+A1PA13,a1pa13,Heart attack risk compared to others
+A1PA13A,a1pa13a,Degree of higher risk for heart attack
+A1PA13B,a1pa13b,Degree of lower risk for heart attack
+A1PHRTRS,a1phrtrs,Subjective Heart Attack Risk
+A1PHRTDX,a1phrtdx,Subjective Heart Attack Risk (binary)
+A1PA14,a1pa14,Number of biological family members had heart attacks
+A1PA15,a1pa15,How much worry about your heart
+A1PA16,a1pa16,Ever had major heart procedure
+A1PA17,a1pa17,Anyone you know well had heart procedure
+A1PA18,a1pa18,Would choose bypass or medication
+A1PA19,a1pa19,How sure would choose bypass or medication
+A1PA20,a1pa20,Treat heart with bypass or exercise
+A1PA21,a1pa21,How sure choice of bypass or exercise
+A1PA22,a1pa22,Accept or seek 2nd open heart surgery
+A1PA22A,a1pa22a,How sure about 2nd open heart surgery
+A1PA23,a1pa23,Chest pain walk uphill/hurry
+A1PA24,a1pa24,Chest pain walk ordinary pace
+A1PA25,a1pa25,When get chest pain stop/slow/continue
+A1PA26,a1pa26,Does chest pain go away when stand still
+A1PA27,a1pa27,How soon does chest pain go away
+A1PA28,a1pa28,Where get chest pain/discomfort
+A1PANGIN,a1pangin,Angina Class Rating
+A1PA29,a1pa29,Ever severe pain across front of chest
+A1PA29A,a1pa29a,Number of times severe pain front of chest
+A1PA29B,a1pa29b,Talk to doctor about chest pain
+A1PA29CA,a1pa29ca,Chest pain - Heart attack
+A1PA29CB,a1pa29cb,Chest pain - Angina
+A1PA29CC,a1pa29cc,Chest pain - High blood pressure
+A1PA29CD,a1pa29cd,Chest pain - Valve disease
+A1PA29CE,a1pa29ce,Chest pain - Hole in heart
+A1PA29CF,a1pa29cf,Chest pain - Blocked artery
+A1PA29CG,a1pa29cg,Chest pain - Irregular heartbeat
+A1PA29CH,a1pa29ch,Chest pain - Heart murmur
+A1PA29CI,a1pa29ci,Chest pain - Heart failure
+A1PA29CJ,a1pa29cj,Chest pain - Other
+A1PA29CK,a1pa29ck,Chest pain - None
+A1PA33,a1pa33,Now taking prescription medications for blood pressure
+A1PA34,a1pa34,Using other treatment high blood pressure
+A1PA30,a1pa30,Number of months since last blood pressure test
+A1PA31,a1pa31,"Last blood pressure (low, normal, high)"
+A1PA32S,a1pa32s,Exact reading systolic blood pressure
+A1PA32D,a1pa32d,Exact reading diastolic blood pressure
+A1PA36,a1pa36,Ever had cancer
+A1PA37,a1pa37,Cancer risk compared to others
+A1PA37A,a1pa37a,Degree of higher risk for cancer
+A1PA37B,a1pa37b,Degree of lower risk for cancer
+A1PCACRS,a1pcacrs,Subjective Cancer Risk
+A1PCACDX,a1pcacdx,Subjective Cancer Risk (binary)
+A1PA38,a1pa38,Cancer treatment/therapy currently
+A1PA39A,a1pa39a,Breast cancer ever
+A1PA39B,a1pa39b,Cervical cancer ever
+A1PA39C,a1pa39c,Colon cancer ever
+A1PA39D,a1pa39d,Lung cancer ever
+A1PA39E,a1pa39e,Lymphoma/leukemia cancer ever
+A1PA39F,a1pa39f,Ovarian cancer ever
+A1PA39G,a1pa39g,Prostate cancer ever
+A1PA39H,a1pa39h,Skin cancer/melanoma ever
+A1PA39I,a1pa39i,Uterine cancer ever
+A1PA39J,a1pa39j,Other cancer ever (specify)
+A1PA41,a1pa41,Age had first cigarette
+A1PA40,a1pa40,Ever smoked cigarettes regularly
+A1PA42,a1pa42,Age began to smoke regularly
+A1PA43,a1pa43,Now smoke cigarettes regularly
+A1PA44,a1pa44,Cigarettes per day during heaviest year (current smoker)
+A1PA45,a1pa45,Ever tried to quit smoking
+A1PA46,a1pa46,Age last smoked regularly
+A1PA47,a1pa47,Cigarettes per day during heaviest year (ex-smoker)
+A1PA52,a1pa52,Age had first drink of alcohol
+A1PA53,a1pa53,Time when drink 3+ days a week
+A1PA53A,a1pa53a,Age began drinking regularly
+A1PA54,a1pa54,"When drank most, had at least one (frequency)"
+A1PA54A,a1pa54a,"How many days per month (when most, if less than 1/week)"
+A1PA55,a1pa55,"When drank most, number of drinks when drank"
+A1PA56,a1pa56,Age last drank often
+A1PA57,a1pa57,Felt sad/depressed for 2 or more weeks (12 months)
+A1PA58,a1pa58,Sad/depress lasted how long (2 weeks sad)
+A1PA59,a1pa59,How often felt sad/depress (2 weeks sad)
+A1PA60,a1pa60,Lose interest in most things (2 weeks sad)
+A1PA61,a1pa61,Felt more tired/low energy (2 weeks sad)
+A1PA62,a1pa62,Lost appetite (2 weeks sad)
+A1PA62A,a1pa62a,Increased appetite (2 weeks sad)
+A1PA63,a1pa63,More trouble falling asleep (2 weeks sad)
+A1PA63A,a1pa63a,How often trouble fall sleep (2 weeks sad)
+A1PA64,a1pa64,More trouble concentrating (2 weeks sad)
+A1PA65,a1pa65,Felt down/no good/worthless (2 weeks sad)
+A1PA66,a1pa66,Thought a lot about death (2 weeks sad)
+A1PDEPAF,a1pdepaf,Depressed Affect (continuous)
+A1PDEPAD,a1pdepad,Depressed Affect (binary)
+A1PA67,a1pa67,Number of weeks sad/depressed (12 months)
+A1PA68MO,a1pa68mo,Most recent month sad/depressed
+A1PA68YR,a1pa68yr,Most recent year sad/depressed
+A1PA69,a1pa69,Time lost interest 2 or more weeks (12 months)
+A1PA70,a1pa70,How long loss interest lasted (2 weeks interest)
+A1PA71,a1pa71,How often felt loss interest (2 weeks interest)
+A1PA72,a1pa72,Felt more tired/low energy (2 weeks interest)
+A1PA73,a1pa73,Lost appetite (2 weeks interest)
+A1PA73A,a1pa73a,Increased appetite (2 weeks interest)
+A1PA74,a1pa74,More trouble fall sleep (2 weeks interest)
+A1PA74A,a1pa74a,How often trouble fall sleep (2 weeks interest)
+A1PA75,a1pa75,More trouble concentrating (2 weeks interest)
+A1PA76,a1pa76,Felt down/no good/worthless (2 weeks interest)
+A1PA77,a1pa77,Thought a lot about death (2 weeks interest)
+A1PANHED,a1panhed,Anhedonia (continuous)
+A1PANHDX,a1panhdx,Anhedonia (binary)
+A1PDEPRE,a1pdepre,Depressed Affect + Anhedonia (continuous)
+A1PDEPDX,a1pdepdx,Depressed Affect + Anhedonia (binary)
+A1PA78,a1pa78,Number of weeks lost interest (12 months)
+A1PA79MO,a1pa79mo,Most recent month lost interest
+A1PA79YR,a1pa79yr,Most recent year lost interest
+A1PA80,a1pa80,"Worry more, less, about same as others"
+A1PA80A,a1pa80a,"Worry a lot, somewhat, little more"
+A1PA81,a1pa81,Frequency of worrying (12 months)
+A1PA81A,a1pa81a,How long worry lasts on days you worry
+A1PA82,a1pa82,Worry about one thing or more than one
+A1PA82A,a1pa82a,Different worries on mind at same time
+A1PA83,a1pa83,Worry about things not likely to happen
+A1PA83A,a1pa83a,Worry about things that are not serious
+A1PA84,a1pa84,How often can't put worry out of mind
+A1PA84A,a1pa84a,How often difficult to control worry
+A1PA85A,a1pa85a,Restless because of worry (12 months)
+A1PA85B,a1pa85b,Keyed up/on edge/nervous energy (12 months)
+A1PA85C,a1pa85c,Irritable because of worry (12 months)
+A1PA85D,a1pa85d,Trouble falling asleep because of worry (12 months)
+A1PA85E,a1pa85e,Trouble staying asleep because of worry (12 months)
+A1PA85F,a1pa85f,Trouble concentrating because of worry (12 months)
+A1PA85G,a1pa85g,Trouble remembering because of worry (12 months)
+A1PA85H,a1pa85h,Low on energy because of worry (12 months)
+A1PA85I,a1pa85i,Tire easily because of worry (12 months)
+A1PA85J,a1pa85j,Sore/aching muscles because of worry (12 months)
+A1PANXIE,a1panxie,Anxiety Disorder (continuous)
+A1PANXTD,a1panxtd,Anxiety Disorder (binary)
+A1PA86,a1pa86,How much worry interferes with your life
+A1PA87,a1pa87,Have spell/attack (12 months)
+A1PA87A,a1pa87a,Spell/attack for no reason (12 months)
+A1PA88,a1pa88,Number of attacks (12 months)
+A1PA89,a1pa89,Attack happen when danger or center attention
+A1PA90A,a1pa90a,Heart pounds during attacks
+A1PA90B,a1pa90b,Tight/pain in chest during attacks
+A1PA90C,a1pa90c,Sweat during attacks
+A1PA90D,a1pa90d,Tremble/shake during attacks
+A1PA90E,a1pa90e,Hot flashes/chills during attacks
+A1PA90F,a1pa90f,Things seem unreal during attacks
+A1PPANIC,a1ppanic,Panic Attack (continuous)
+A1PPANDX,a1ppandx,Panic Attack (binary)
+A1PB1,a1pb1,Highest level of education completed
+A1PMQB1,a1pmqb1,R education categories 1
+A1PEDUCP,a1peducp,R education categories 2
+A1PEDU,a1pedu,R education - dichotomous
+A1PSXEDAG,a1psxedag,Sex/Edu/Age category of R
+A1PB2,a1pb2,Age first worked for pay for 6 or more months
+A1PB3A,a1pb3a,Current employment - Working
+A1PB3B,a1pb3b,Current employment - Self-employed
+A1PB3C,a1pb3c,Current employment - Unemployed
+A1PB3D,a1pb3d,Current employment - Temporarily laid off
+A1PB3E,a1pb3e,Current employment - Retired
+A1PB3F,a1pb3f,Current employment - Homemaker
+A1PB3G,a1pb3g,Current employment - Full-time student
+A1PB3H,a1pb3h,Current employment - Part-time student
+A1PB3I,a1pb3i,Current employment - Maternity or sick leave
+A1PB3J,a1pb3j,Current employment - Permanently disabled
+A1PB3K,a1pb3k,Current employment - Other (specify)
+A1PB5,a1pb5,Length of unemployment (number of weeks)
+A1PB4A,a1pb4a,Reason for current unemployment - Fired
+A1PB4B,a1pb4b,Reason for current unemployment - Laid off
+A1PB4C,a1pb4c,Reason for current unemployment - Plant/company closed
+A1PB4D,a1pb4d,Reason for current unemployment - Quit
+A1PB4E,a1pb4e,Reason for current unemployment - Retired
+A1PB4F,a1pb4f,Reason for current unemployment - Work force reduction (volunteered)
+A1PB4G,a1pb4g,Reason for current unemployment - Other (specify)
+A1PB6,a1pb6,Working for pay at the present time
+A1PB8_2,a1pb8_2,Supervises others (current job)
+A1PB8_3,a1pb8_3,Number of people supervised (current job)
+A1PB10,a1pb10,Employee or self-employed (current job)
+A1POCC,a1pocc,Respondent current occupation
+A1PIND,a1pind,Respondent current industry
+A1POCMJ,a1pocmj,R's current occupation - major groups
+A1PINMJ,a1pinmj,R's current industry - major groups
+A1PTSEI,a1ptsei,Respondent current - SEI 80 - total
+A1PTEARN,a1ptearn,Respondent current - logit all earn >= 14.30
+A1PTEDU,a1ptedu,Respondent current - logit all educ some col
+A1PFSEI,a1pfsei,Respondent current - SEI 80 - female
+A1PFEARN,a1pfearn,Respondent current - logit wmn earn >= 14.30
+A1PFEDU,a1pfedu,Respondent current - logit wmn educ some col
+A1PMSEI,a1pmsei,Respondent current - SEI 80 - male
+A1PMEARN,a1pmearn,Respondent current - logit men earn >= 14.30
+A1PMEDU,a1pmedu,Respondent current - logit men educ some col
+R_ABSCRE,r_abscre,Respondent current - abstract and creative
+R_ATMOSP,r_atmosp,Respondent current - atmospheric conditions
+R_BOTH,r_both,Respondent current - prfrmd in and outdoor
+R_BUSPR,r_buspr,Respondent current - business cntct people
+R_CLERIC,r_cleric,Respondent current - clerical perception
+R_CLIMB,r_climb,Respondent current - climbing or balancing
+R_CLRDIS,r_clrdis,Respondent current - color discrimination
+R_COLD,r_cold,Respondent current - extreme cold
+R_COMMDA,r_commda,Respondent current - communication of data
+R_DATAL,r_datal,Respondent current - cmplxty - rltn to data
+R_DATAPR,r_datapr,Respondent current - data preference
+R_DCP,r_dcp,Respondent current - adapt accept rspnsblty
+R_DEPL,r_depl,Respondent current - adapt people instrctn
+R_ENVIRO,r_enviro,Respondent current - environment condition
+R_EYHNFT,r_eyhnft,Respondent current - eye hand foot coordntn
+R_FIF,r_fif,Respondent current - adapt situ feel - view
+R_FMNHR,r_fmnhr,Respondent current - female mean hrly earn
+R_FMNYR,r_fmnyr,Respondent current - female mean annl earn
+R_FNGRDX,r_fngrdx,Respondent current - finger dexterity
+R_FRMPRC,r_frmprc,Respondent current - form perception
+R_GED,r_ged,Respondent current - gnrl education devlpmt
+R_HAZARD,r_hazard,Respondent current - hazards
+R_HEAT,r_heat,Respondent current - extreme heat
+R_INFLU,r_influ,Respondent current - adapt influence ideas
+R_INTELL,r_intell,Respondent current - intelligence aptitude
+R_MACHPR,r_machpr,Respondent current - activities w machines
+R_MCHNPR,r_mchnpr,Respondent current - machine preference
+R_MEN,r_men,Respondent current - men in occupation 1979
+R_MMNHR,r_mmnhr,Respondent current - male mean hrly earn
+R_MMNYR,r_mmnyr,Respondent current - male mean annl earn
+R_MNLDXT,r_mnldxt,Respondent current - manual dexterity
+R_MTRCRD,r_mtrcrd,Respondent current - motor coordination
+R_MVC,r_mvc,Respondent current - adapt general measures
+R_NOISE,r_noise,Respondent current - noise or vibrations
+R_NUMERC,r_numerc,Respondent current - numerical aptitude
+R_OBSPRE,r_obspre,Respondent current - activities w objects
+R_OUT,r_out,Respondent current - performed outdoors
+R_PEOPLE,r_people,Respondent current - complexity w people
+R_PEOPRE,r_peopre,Respondent current - work for presumed good
+R_PHYSDM,r_physdm,Respondent current - physical demands
+R_PRODPR,r_prodpr,Respondent current - productive preference
+R_PROTPR,r_protpr,Respondent current - tngbl productive satis
+R_PRSTPR,r_prstpr,Respondent current - prestige of others
+R_PUS,r_pus,Respondent current - adapt perform stress
+R_REACH,r_reach,Respondent current - reaching handling feel
+R_REPCON,r_repcon,Respondent current - adapt repetitive work
+R_ROUTPR,r_routpr,Respondent current - routine activities
+R_SCINPR,r_scinpr,Respondent current - scientific activities
+R_SEE,r_see,Respondent current - seeing
+R_SJC,r_sjc,Respondent current - adapt general judgemtl
+R_SPATIA,r_spatia,Respondent current - spatial aptitude
+R_STOOP,r_stoop,Respondent current - stoop kneel and crawl
+R_STRGTH,r_strgth,Respondent current - strength
+R_STS,r_sts,Respondent current - adapt to situat limits
+R_SVP,r_svp,Respondent current - specific vocation prep
+R_TALK,r_talk,Respondent current - talking or hearing
+R_THINGS,r_things,Respondent current - complexity of things
+R_TRAIN,r_train,Respondent current - training times
+R_VARCH,r_varch,Respondent current - adapt multiple duties
+R_VERBAL,r_verbal,Respondent current - verbal aptitude
+R_WET,r_wet,Respondent current - wet and humid conditn
+R_WOMEN,r_women,Respondent current - women in occupatn 1979
+MINDUS_R,mindus_r,Respondent current - 1 if missing industry code
+PROFID_R,profid_r,Respondent current - professional / related srvcs
+AGRIC_R,agric_r,"Respondent current - agri, forestry, fishry, mining"
+CONSTR_R,constr_r,Respondent current - construction
+MANUF_R,manuf_r,Respondent current - manufacturing
+TRANSP_R,transp_r,"Respondent current - transp, comm, public utility"
+WHOLE_R,whole_r,Respondent current - wholesale trade
+RETAIL_R,retail_r,Respondent current - retail trade
+FNANCE_R,fnance_r,"Respondent current - finance, insurance, real est"
+BUSIN_R,busin_r,Respondent current - business and repair services
+PERSON_R,person_r,Respondent current - personal services
+ENTERT_R,entert_r,"Respondent current - entertainment, recreation serv"
+PUBADM_R,pubadm_r,Respondent current - public administration
+MOCCUP_R,moccup_r,Respondent current - 1 if missing occupation code
+EXEC_R,exec_r,"Respondent current - executive, administ, managerl"
+PROFOC_R,profoc_r,Respondent current - professional specialty
+TECH_R,tech_r,Respondent current - technicians / related support
+SALES_R,sales_r,Respondent current - sales occupations
+ADMIN_R,admin_r,"Respondent current - admin support, incld clerical"
+SERV_R,serv_r,Respondent current - service occupations
+FARM_R,farm_r,"Respondent current - farming, forestry, fishing"
+CRAFT_R,craft_r,"Respondent current - precision prod, craft, repair"
+OPERAT_R,operat_r,"Respondent current - operator, laborer, military"
+A1PB11,a1pb11,Hours work for pay at main job
+A1PB11A,a1pb11a,Hours work at other jobs
+A1PB12,a1pb12,Number of nights away due to job (12 months)
+A1PB14_2,a1pb14_2,Supervise others (last job)
+A1PB14_3,a1pb14_3,Number of people supervised (last job)
+A1PB16,a1pb16,Employee or self-employed (last job)
+A1POCCP,a1poccp,Respondent last occupation
+A1PINDP,a1pindp,Respondent last industry
+A1POCPMJ,a1pocpmj,R's previous occupation - major groups
+A1PINPMJ,a1pinpmj,R's previous industry - major groups
+A1PTSEIP,a1ptseip,Respondent last - SEI 80 - total
+A1PTEARP,a1ptearp,Respondent last - logit all earn >= 14.30
+A1PTEDUP,a1ptedup,Respondent last - logit all educ some col
+A1PFSEIP,a1pfseip,Respondent last - SEI 80 - female
+A1PFEARP,a1pfearp,Respondent last - logit wmn earn >= 14.30
+A1PFEDUP,a1pfedup,Respondent last - logit wmn educ some col
+A1PMSEIP,a1pmseip,Respondent last - SEI 80 - male
+A1PMEARP,a1pmearp,Respondent last - logit men earn >= 14.30
+A1PMEDUP,a1pmedup,Respondent last - logit men educ some col
+L_ABSCRE,l_abscre,Respondent last - abstract and creative
+L_ATMOSP,l_atmosp,Respondent last - atmospheric conditions
+L_BOTH,l_both,Respondent last - prfrmd in and outdoor
+L_BUSPR,l_buspr,Respondent last - business cntct people
+L_CLERIC,l_cleric,Respondent last - clerical perception
+L_CLIMB,l_climb,Respondent last - climbing or balancing
+L_CLRDIS,l_clrdis,Respondent last - color discrimination
+L_COLD,l_cold,Respondent last - extreme cold
+L_COMMDA,l_commda,Respondent last - communication of data
+L_DATAL,l_datal,Respondent last - cmplxty - rltn to data
+L_DATAPR,l_datapr,Respondent last - data preference
+L_DCP,l_dcp,Respondent last - adapt accept rspnsblty
+L_DEPL,l_depl,Respondent last - adapt people instrctn
+L_ENVIRO,l_enviro,Respondent last - environment condition
+L_EYHNFT,l_eyhnft,Respondent last - eye hand foot coordntn
+L_FIF,l_fif,Respondent last - adapt situ feel - view
+L_FMNHR,l_fmnhr,Respondent last - female mean hrly earn
+L_FMNYR,l_fmnyr,Respondent last - female mean annl earn
+L_FNGRDX,l_fngrdx,Respondent last - finger dexterity
+L_FRMPRC,l_frmprc,Respondent last - form perception
+L_GED,l_ged,Respondent last - gnrl educational devlpmt
+L_HAZARD,l_hazard,Respondent last - hazards
+L_HEAT,l_heat,Respondent last - extreme heat
+L_INFLU,l_influ,Respondent last - adapt influence ideas
+L_INTELL,l_intell,Respondent last - intelligence aptitude
+L_MACHPR,l_machpr,Respondent last - activities w machines
+L_MCHNPR,l_mchnpr,Respondent last - machine preference
+L_MEN,l_men,Respondent last - men in occupation 1979
+L_MMNHR,l_mmnhr,Respondent last - male mean hrly earn
+L_MMNYR,l_mmnyr,Respondent last - male mean annl earn
+L_MNLDXT,l_mnldxt,Respondent last - manual dexterity
+L_MTRCRD,l_mtrcrd,Respondent last - motor coordination
+L_MVC,l_mvc,Respondent last - adapt general measures
+L_NOISE,l_noise,Respondent last - noise or vibrations
+L_NUMERC,l_numerc,Respondent last - numerical aptitude
+L_OBSPRE,l_obspre,Respondent last - activities w objects
+L_OUT,l_out,Respondent last - performed outdoors
+L_PEOPLE,l_people,Respondent last - complexity w people
+L_PEOPRE,l_peopre,Respondent last - work for presumed good
+L_PHYSDM,l_physdm,Respondent last - physical demands
+L_PRODPR,l_prodpr,Respondent last - productive preference
+L_PROTPR,l_protpr,Respondent last - tngbl productive satis
+L_PRSTPR,l_prstpr,Respondent last - prestige of others
+L_PUS,l_pus,Respondent last - adapt perform stress
+L_REACH,l_reach,Respondent last - reaching handling feel
+L_REPCON,l_repcon,Respondent last - adapt repetitive work
+L_ROUTPR,l_routpr,Respondent last - routine activities
+L_SCINPR,l_scinpr,Respondent last - scientific activities
+L_SEE,l_see,Respondent last - seeing
+L_SJC,l_sjc,Respondent last - adapt general judgemtl
+L_SPATIA,l_spatia,Respondent last - spatial aptitude
+L_STOOP,l_stoop,Respondent last - stoop kneel and crawl
+L_STRGTH,l_strgth,Respondent last - strength
+L_STS,l_sts,Respondent last - adapt to situat limits
+L_SVP,l_svp,Respondent last - specific vocation prep
+L_TALK,l_talk,Respondent last - talking or hearing
+L_THINGS,l_things,Respondent last - complexity of things
+L_TRAIN,l_train,Respondent last - training times
+L_VARCH,l_varch,Respondent last - adapt multiple duties
+L_VERBAL,l_verbal,Respondent last - verbal aptitude
+L_WET,l_wet,Respondent last - wet and humid conditn
+L_WOMEN,l_women,Respondent last - women in occupatn 1979
+MINDUS_L,mindus_l,Respondent last - 1 if missing industry code
+PROFID_L,profid_l,Respondent last - professional / related srvcs
+AGRIC_L,agric_l,"Respondent last - agri, forestry, fishry, mining"
+CONSTR_L,constr_l,Respondent last - construction
+MANUF_L,manuf_l,Respondent last - manufacturing
+TRANSP_L,transp_l,"Respondent last - transp, comm, public utility"
+WHOLE_L,whole_l,Respondent last - wholesale trade
+RETAIL_L,retail_l,Respondent last - retail trade
+FNANCE_L,fnance_l,"Respondent last - finance, insurance, real est"
+BUSIN_L,busin_l,Respondent last - business and repair services
+PERSON_L,person_l,Respondent last - personal services
+ENTERT_L,entert_l,"Respondent last - entertainment, recreation serv"
+PUBADM_L,pubadm_l,Respondent last - public administration
+MOCCUP_L,moccup_l,Respondent last - 1 if missing occupation code
+EXEC_L,exec_l,"Respondent last - executive, administ, managerl"
+PROFOC_L,profoc_l,Respondent last - professional specialty
+TECH_L,tech_l,Respondent last - technicians / related support
+SALES_L,sales_l,Respondent last - sales occupations
+ADMIN_L,admin_l,"Respondent last - admin support, incld clerical"
+SERV_L,serv_l,Respondent last - service occupations
+FARM_L,farm_l,"Respondent last - farming, forestry, fishing"
+CRAFT_L,craft_l,"Respondent last - precision prod, craft, repair"
+OPERAT_L,operat_l,"Respondent last - operator, laborer, military"
+A1PB17,a1pb17,Marital status currently
+A1PB19,a1pb19,Number of times married altogether
+A1PB18MO,a1pb18mo,Month married (first marriage)
+A1PB18YR,a1pb18yr,Year married (first marriage)
+A1PB20,a1pb20,End in widow or divorce (first marriage)
+A1PB20AMO,a1pb20amo,Month spouse died (first marriage)
+A1PB20AYR,a1pb20ayr,Year spouse died (first marriage)
+A1PB20BMO,a1pb20bmo,Month last live with spouse (first marriage)
+A1PB20BYR,a1pb20byr,Year last live with spouse (first marriage)
+A1PB21MO,a1pb21mo,Month married (recent marriage)
+A1PB21YR,a1pb21yr,Year married (recent marriage)
+A1PB22MO,a1pb22mo,Month last live with spouse (recent marriage)
+A1PB22YR,a1pb22yr,Year last live with spouse (recent marriage)
+A1PB23MO,a1pb23mo,Month spouse died (recent marriage)
+A1PB23YR,a1pb23yr,Year spouse died (recent marriage)
+A1PB24,a1pb24,Cohabitation with partner currently
+A1PB25,a1pb25,Length of cohabitation - number of weeks
+A1PPARTN,a1ppartn,Married or cohabitating
+A1PB26,a1pb26,Year spouse/partner born
+A1PSAGE,a1psage,Age of spouse/partner
+A1PB27,a1pb27,Spouse/partner highest level of education completed
+A1PMQB27,a1pmqb27,Spouse/partner education categories
+A1PSEDU,a1psedu,Spouse/partner education - dichotomous
+A1PSSXEDAG,a1pssxedag,Spouse/partner Sex/Edu/Age category
+A1PB28A,a1pb28a,Spouse/partner current employment - Working
+A1PB28B,a1pb28b,Spouse/partner current employment - Self-employed
+A1PB28C,a1pb28c,Spouse/partner current employment - Unemployed
+A1PB28D,a1pb28d,Spouse/partner current employment - Temporarily laid off
+A1PB28E,a1pb28e,Spouse/partner current employment - Retired
+A1PB28F,a1pb28f,Spouse/partner current employment - Homemaker
+A1PB28G,a1pb28g,Spouse/partner current employment - Full-time student
+A1PB28H,a1pb28h,Spouse/partner current employment - Part-time student
+A1PB28I,a1pb28i,Spouse/partner current employment - Maternity or sick leave
+A1PB28J,a1pb28j,Spouse/partner current employment - Permanently disabled
+A1PB28K,a1pb28k,Spouse/partner current employment - Other (specify)
+A1PB30,a1pb30,Spouse/partner length of unemployment (number of weeks)
+A1PB29A,a1pb29a,Spouse/partner reason for current unemployment - Fired
+A1PB29B,a1pb29b,Spouse/partner reason for current unemployment - Laid off
+A1PB29C,a1pb29c,Spouse/partner reason for current unemployment - Plant/company closed
+A1PB29D,a1pb29d,Spouse/partner reason for current unemployment - Quit
+A1PB29E,a1pb29e,Spouse/partner reason for current unemployment - Retired
+A1PB29F,a1pb29f,Spouse/partner reason for current unemployment - Work force reduction (volunteered)
+A1PB29G,a1pb29g,Spouse/partner reason for current unemployment - Other (specify)
+A1PB31,a1pb31,Spouse/partner currently working for pay
+A1PB33_2,a1pb33_2,Spouse/partner supervises others on main job
+A1PB34_2,a1pb34_2,Spouse/partner employee or self-employed
+A1POCCS,a1poccs,Spouse/Partner occupation
+A1PINDS,a1pinds,Spouse/Partner industry
+A1POCSMJ,a1pocsmj,Spousal occupation - major groups
+A1PINSMJ,a1pinsmj,Spousal industry - major groups
+A1PTSEIS,a1ptseis,Spouse/partner - SEI 80 - total
+A1PTEARS,a1ptears,Spouse/partner - logit all earn >= 14.30
+A1PTEDUS,a1ptedus,Spouse/partner - logit all educ some col
+A1PFSEIS,a1pfseis,Spouse/partner - SEI 80 - female
+A1PFEARS,a1pfears,Spouse/partner - logit wmn earn >= 14.30
+A1PFEDUS,a1pfedus,Spouse/partner - logit wmn educ some col
+A1PMSEIS,a1pmseis,Spouse/partner - SEI 80 - male
+A1PMEARS,a1pmears,Spouse/partner - logit men earn >= 14.30
+A1PMEDUS,a1pmedus,Spouse/partner - logit men educ some col
+S_ABSCRE,s_abscre,Spouse/partner - abstract and creative
+S_ATMOSP,s_atmosp,Spouse/partner - atmospheric conditions
+S_BOTH,s_both,Spouse/partner - prfrmd in and outdoor
+S_BUSPR,s_buspr,Spouse/partner - business cntct people
+S_CLERIC,s_cleric,Spouse/partner - clerical perception
+S_CLIMB,s_climb,Spouse/partner - climbing or balancing
+S_CLRDIS,s_clrdis,Spouse/partner - color discrimination
+S_COLD,s_cold,Spouse/partner - extreme cold
+S_COMMDA,s_commda,Spouse/partner - communication of data
+S_DATAL,s_datal,Spouse/partner - cmplxty - rltn to data
+S_DATAPR,s_datapr,Spouse/partner - data preference
+S_DCP,s_dcp,Spouse/partner - adapt accept rspnsblty
+S_DEPL,s_depl,Spouse/partner - adapt people instrctn
+S_ENVIRO,s_enviro,Spouse/partner - environment condition
+S_EYHNFT,s_eyhnft,Spouse/partner - eye hand foot coordntn
+S_FIF,s_fif,Spouse/partner - adapt situ feel - view
+S_FMNHR,s_fmnhr,Spouse/partner - female mean hrly earn
+S_FMNYR,s_fmnyr,Spouse/partner - female mean annl earn
+S_FNGRDX,s_fngrdx,Spouse/partner - finger dexterity
+S_FRMPRC,s_frmprc,Spouse/partner - form perception
+S_GED,s_ged,Spouse/partner - gnrl education devlpmt
+S_HAZARD,s_hazard,Spouse/partner - hazards
+S_HEAT,s_heat,Spouse/partner - extreme heat
+S_INFLU,s_influ,Spouse/partner - adapt influence ideas
+S_INTELL,s_intell,Spouse/partner - intelligence aptitude
+S_MACHPR,s_machpr,Spouse/partner - activities w machines
+S_MCHNPR,s_mchnpr,Spouse/partner - machine preference
+S_MEN,s_men,Spouse/partner - men in occupation 1979
+S_MMNHR,s_mmnhr,Spouse/partner - male mean hrly earn
+S_MMNYR,s_mmnyr,Spouse/partner - male mean annl earn
+S_MNLDXT,s_mnldxt,Spouse/partner - manual dexterity
+S_MTRCRD,s_mtrcrd,Spouse/partner - motor coordination
+S_MVC,s_mvc,Spouse/partner - adapt general measures
+S_NOISE,s_noise,Spouse/partner - noise or vibrations
+S_NUMERC,s_numerc,Spouse/partner - numerical aptitude
+S_OBSPRE,s_obspre,Spouse/partner - activities w objects
+S_OUT,s_out,Spouse/partner - performed outdoors
+S_PEOPLE,s_people,Spouse/partner - complexity w people
+S_PEOPRE,s_peopre,Spouse/partner - work for presumed good
+S_PHYSDM,s_physdm,Spouse/partner - physical demands
+S_PRODPR,s_prodpr,Spouse/partner - productive preference
+S_PROTPR,s_protpr,Spouse/partner - tngbl productive satis
+S_PRSTPR,s_prstpr,Spouse/partner - prestige of others
+S_PUS,s_pus,Spouse/partner - adapt perform stress
+S_REACH,s_reach,Spouse/partner - reaching handling feel
+S_REPCON,s_repcon,Spouse/partner - adapt repetitive work
+S_ROUTPR,s_routpr,Spouse/partner - routine activities
+S_SCINPR,s_scinpr,Spouse/partner - scientific activities
+S_SEE,s_see,Spouse/partner - seeing
+S_SJC,s_sjc,Spouse/partner - adapt general judgemtl
+S_SPATIA,s_spatia,Spouse/partner - spatial aptitude
+S_STOOP,s_stoop,Spouse/partner - stoop kneel and crawl
+S_STRGTH,s_strgth,Spouse/partner - strength
+S_STS,s_sts,Spouse/partner - adapt to situat limits
+S_SVP,s_svp,Spouse/partner - specific vocation prep
+S_TALK,s_talk,Spouse/partner - talking or hearing
+S_THINGS,s_things,Spouse/partner - complexity of things
+S_TRAIN,s_train,Spouse/partner - training times
+S_VARCH,s_varch,Spouse/partner - adapt multiple duties
+S_VERBAL,s_verbal,Spouse/partner - verbal aptitude
+S_WET,s_wet,Spouse/partner - wet and humid conditn
+S_WOMEN,s_women,Spouse/partner - women in occupatn 1979
+MINDUS_S,mindus_s,Spouse/partner - 1 if missing industry code
+PROFID_S,profid_s,Spouse/partner - professional / related srvcs
+AGRIC_S,agric_s,"Spouse/partner - agri, forestry, fishry, mining"
+CONSTR_S,constr_s,Spouse/partner - construction
+MANUF_S,manuf_s,Spouse/partner - manufacturing
+TRANSP_S,transp_s,"Spouse/partner - transp, comm, public utility"
+WHOLE_S,whole_s,Spouse/partner - wholesale trade
+RETAIL_S,retail_s,Spouse/partner - retail trade
+FNANCE_S,fnance_s,"Spouse/partner - finance, insurance, real est"
+BUSIN_S,busin_s,Spouse/partner - business and repair services
+PERSON_S,person_s,Spouse/partner - personal services
+ENTERT_S,entert_s,"Spouse/partner - entertainment, recreation serv"
+PUBADM_S,pubadm_s,Spouse/partner - public administration
+MOCCUP_S,moccup_s,Spouse/partner - 1 if missing occupation code
+EXEC_S,exec_s,"Spouse/partner - executive, administ, managerl"
+PROFOC_S,profoc_s,Spouse/partner - professional specialty
+TECH_S,tech_s,Spouse/partner - technicians / related support
+SALES_S,sales_s,Spouse/partner - sales occupations
+ADMIN_S,admin_s,"Spouse/partner - admin support, incld clerical"
+SERV_S,serv_s,Spouse/partner - service occupations
+FARM_S,farm_s,"Spouse/partner - farming, forestry, fishing"
+CRAFT_S,craft_s,"Spouse/partner - precision prod, craft, repair"
+OPERAT_S,operat_s,"Spouse/partner - operator, laborer, military"
+A1PB35,a1pb35,Number of biological children
+A1PB36A1,a1pb36a1,Gender child 1
+A1PB36B1,a1pb36b1,Year child 1 born
+A1PB36A2,a1pb36a2,Gender child 2
+A1PB36B2,a1pb36b2,Year child 2 born
+A1PB36A3,a1pb36a3,Gender child 3
+A1PB36B3,a1pb36b3,Year child 3 born
+A1PB36A4,a1pb36a4,Gender child 4
+A1PB36B4,a1pb36b4,Year child 4 born
+A1PB36A5,a1pb36a5,Gender child 5
+A1PB36B5,a1pb36b5,Year child 5 born
+A1PB36A6,a1pb36a6,Gender child 6
+A1PB36B6,a1pb36b6,Year child 6 born
+A1PB36A7,a1pb36a7,Gender child 7
+A1PB36B7,a1pb36b7,Year child 7 born
+A1PB36A8,a1pb36a8,Gender child 8
+A1PB36B8,a1pb36b8,Year child 8 born
+A1PB36A9,a1pb36a9,Gender child 9
+A1PB36B9,a1pb36b9,Year child 9 born
+A1PB36A10,a1pb36a10,Gender child 10
+A1PB36B10,a1pb36b10,Year child 10 born
+A1PBAG1,a1pbag1,Age of biological child 1
+A1PBAG2,a1pbag2,Age of biological child 2
+A1PBAG3,a1pbag3,Age of biological child 3
+A1PBAG4,a1pbag4,Age of biological child 4
+A1PBAG5,a1pbag5,Age of biological child 5
+A1PBAG6,a1pbag6,Age of biological child 6
+A1PBAG7,a1pbag7,Age of biological child 7
+A1PBAG8,a1pbag8,Age of biological child 8
+A1PBAG9,a1pbag9,Age of biological child 9
+A1PBAG10,a1pbag10,Age of biological child 10
+A1PB37,a1pb37,Number of non-biological children
+A1PB37A1,a1pb37a1,Gender non-biological child 1
+A1PB37B1,a1pb37b1,Relation to non-biological child 1
+A1PB37C1,a1pb37c1,Year non-biological child 1 born
+A1PB37A2,a1pb37a2,Gender non-biological child 2
+A1PB37B2,a1pb37b2,Relation to non-biological child 2
+A1PB37C2,a1pb37c2,Year non-biological child 2 born
+A1PB37A3,a1pb37a3,Gender non-biological child 3
+A1PB37B3,a1pb37b3,Relation to non-biological child 3
+A1PB37C3,a1pb37c3,Year non-biological child 3 born
+A1PB37A4,a1pb37a4,Gender non-biological child 4
+A1PB37B4,a1pb37b4,Relation to non-biological child 4
+A1PB37C4,a1pb37c4,Year non-biological child 4 born
+A1PB37A5,a1pb37a5,Gender non-biological child 5
+A1PB37B5,a1pb37b5,Relation to non-biological child 5
+A1PB37C5,a1pb37c5,Year non-biological child 5 born
+A1PB37A6,a1pb37a6,Gender non-biological child 6
+A1PB37B6,a1pb37b6,Relation to non-biological child 6
+A1PB37C6,a1pb37c6,Year non-biological child 6 born
+A1PB37A7,a1pb37a7,Gender non-biological child 7
+A1PB37B7,a1pb37b7,Relation to non-biological child 7
+A1PB37C7,a1pb37c7,Year non-biological child 7 born
+A1PB37A8,a1pb37a8,Gender non-biological child 8
+A1PB37B8,a1pb37b8,Relation to non-biological child 8
+A1PB37C8,a1pb37c8,Year non-biological child 8 born
+A1PB37A9,a1pb37a9,Gender non-biological child 9
+A1PB37B9,a1pb37b9,Relation to non-biological child 9
+A1PB37C9,a1pb37c9,Year non-biological child 9 born
+A1PB37A10,a1pb37a10,Gender non-biological child 10
+A1PB37B10,a1pb37b10,Relation to non-biological child 10
+A1PB37C10,a1pb37c10,Year non-biological child 10 born
+A1PBAO1,a1pbao1,Age of non-biological child 1
+A1PBAO2,a1pbao2,Age of non-biological child 2
+A1PBAO3,a1pbao3,Age of non-biological child 3
+A1PBAO4,a1pbao4,Age of non-biological child 4
+A1PBAO5,a1pbao5,Age of non-biological child 5
+A1PBAO6,a1pbao6,Age of non-biological child 6
+A1PBAO7,a1pbao7,Age of non-biological child 7
+A1PBAO8,a1pbao8,Age of non-biological child 8
+A1PBAO9,a1pbao9,Age of non-biological child 9
+A1PBAO10,a1pbao10,Age of non-biological child 10
+A1PCHILD0,a1pchild0,Number of children under age 1
+A1PCHILD1,a1pchild1,Number of children aged 1
+A1PCHILD2,a1pchild2,Number of children aged 2
+A1PCHILD3,a1pchild3,Number of children aged 3
+A1PCHILD4,a1pchild4,Number of children aged 4
+A1PCHILD5,a1pchild5,Number of children aged 5
+A1PCHILD6,a1pchild6,Number of children aged 6
+A1PCHILD7,a1pchild7,Number of children aged 7
+A1PCHILD8,a1pchild8,Number of children aged 8
+A1PCHILD9,a1pchild9,Number of children aged 9
+A1PCHILD10,a1pchild10,Number of children aged 10
+A1PCHILD11,a1pchild11,Number of children aged 11
+A1PCHILD12,a1pchild12,Number of children aged 12
+A1PCHILD13,a1pchild13,Number of children aged 13
+A1PCHILD14,a1pchild14,Number of children aged 14
+A1PCHILD15,a1pchild15,Number of children aged 15
+A1PCHILD16,a1pchild16,Number of children aged 16
+A1PCHILD17,a1pchild17,Number of children aged 17
+A1PCHILD18,a1pchild18,Number of children aged 18
+A1PC06,a1pc06,Any children aged 0-6
+A1PC713,a1pc713,Any children aged 7-13
+A1PC1417,a1pc1417,Any children aged 14-17
+A1PC18,a1pc18,Any children under 18
+A1PE1,a1pe1,Lived in institution ever over the past five years
+A1PE1A,a1pe1a,Number of days lived in institution over the past 5 years
+A1PE2,a1pe2,Homeless since past interview
+A1PE2A,a1pe2a,Number of days homeless over the past 5 years
+A1PE3,a1pe3,No telephone over the past 5 years
+A1PE3A,a1pe3a,Number of days without telephone over the past 5 years
+A1PC1,a1pc1,Live with biological parents
+A1PCA1,a1pca1,Reason not live with biological parent in childhood: Mother died
+A1PCA2,a1pca2,Reason not live with biological parent in childhood: Father died
+A1PCA3,a1pca3,Reason not live with biological parent in childhood: Parents separated/divorced
+A1PCA4,a1pca4,Reason not live with biological parent in childhood: Parents never lived together
+A1PCA5,a1pca5,Reason not live with biological parent in childhood: Adopted at birth
+A1PCA6,a1pca6,Reason not live with biological parent in childhood: Adopted not at birth
+A1PCA7,a1pca7,Reason not live with biological parent in childhood: Other
+A1PCB1,a1pcb1,Age when mother died
+A1PCB2,a1pcb2,Age when father died
+A1PCB3,a1pcb3,Age parents separated or divorced
+A1PCB6,a1pcb6,Age when adopted
+A1PCB7,a1pcb7,Age when (other) occurred
+A1PCC,a1pcc,Male head of household (C1.3)
+A1PC2,a1pc2,Father/Male head of household - Highest education level
+A1PC3,a1pc3,Father/Male head of household - Work for pay
+A1PC3A1,a1pc3a1,Father/Male head of household - Physical disability or injury
+A1PC3A2,a1pc3a2,Father/Male head of household - Alcohol or drug abuse
+A1PC3A3,a1pc3a3,Father/Male head of household - Mental or emotional disability
+A1PC3A4,a1pc3a4,Father/Male head of household - Stayed home to raise children
+A1PC3A5,a1pc3a5,Father/Male head of household - Other reason not working for pay
+A1PC5_2,a1pc5_2,Father/Male head of household - Supervise anyone
+A1PC6_2,a1pc6_2,Father/Male head of household - Employee or self-employed
+A1POCCD,a1poccd,Father/Male head of household - occupation
+A1PINDD,a1pindd,Father/Male head of household - industry
+A1POCDMJ,a1pocdmj,Father/Male head of household - occupation major group (1980 Census)
+A1PINDMJ,a1pindmj,Father/Male head of household - industry major group (1980 Census)
+A1PTSEID,a1ptseid,Father/Male head of household - SEI 80 - total
+A1PTEARD,a1pteard,Father/Male head of household - logit all earn >= 14.30
+A1PTEDUD,a1ptedud,Father/Male head of household - logit all educ some col
+A1PFSEID,a1pfseid,Father/Male head of household - SEI 80 - female
+A1PFEARD,a1pfeard,Father/Male head of household - logit wmn earn >= 14.30
+A1PFEDUD,a1pfedud,Father/Male head of household - logit wmn educ some col
+A1PMSEID,a1pmseid,Father/Male head of household - SEI 80 - male
+A1PMEARD,a1pmeard,Father/Male head of household - logit men earn >= 14.30
+A1PMEDUD,a1pmedud,Father/Male head of household - logit men educ some col
+D_ABSCRE,d_abscre,Father/Male head of household - abstract and creative
+D_ATMOSP,d_atmosp,Father/Male head of household - atmospheric conditions
+D_BOTH,d_both,Father/Male head of household - prfrmd in and outdoor
+D_BUSPR,d_buspr,Father/Male head of household - business cntct people
+D_CLERIC,d_cleric,Father/Male head of household - clerical perception
+D_CLIMB,d_climb,Father/Male head of household - climbing or balancing
+D_CLRDIS,d_clrdis,Father/Male head of household - color discrimination
+D_COLD,d_cold,Father/Male head of household - extreme cold
+D_COMMDA,d_commda,Father/Male head of household - communication of data
+D_DATAL,d_datal,Father/Male head of household - cmplxty - rltn to data
+D_DATAPR,d_datapr,Father/Male head of household - data preference
+D_DCP,d_dcp,Father/Male head of household - adapt accept rspnsblty
+D_DEPL,d_depl,Father/Male head of household - adapt people instrctn
+D_ENVIRO,d_enviro,Father/Male head of household - environment condition
+D_EYHNFT,d_eyhnft,Father/Male head of household - eye hand foot coordntn
+D_FIF,d_fif,Father/Male head of household - adapt situ feel - view
+D_FMNHR,d_fmnhr,Father/Male head of household - female mean hrly earn
+D_FMNYR,d_fmnyr,Father/Male head of household - female mean annl earn
+D_FNGRDX,d_fngrdx,Father/Male head of household - finger dexterity
+D_FRMPRC,d_frmprc,Father/Male head of household - form perception
+D_GED,d_ged,Father/Male head of household - gnrl education devlpmt
+D_HAZARD,d_hazard,Father/Male head of household - hazards
+D_HEAT,d_heat,Father/Male head of household - extreme heat
+D_INFLU,d_influ,Father/Male head of household - adapt influence ideas
+D_INTELL,d_intell,Father/Male head of household - intelligence aptitude
+D_MACHPR,d_machpr,Father/Male head of household - activities w machines
+D_MCHNPR,d_mchnpr,Father/Male head of household - machine preference
+D_MEN,d_men,Father/Male head of household - men in occupation 1979
+D_MMNHR,d_mmnhr,Father/Male head of household - male mean hrly earn
+D_MMNYR,d_mmnyr,Father/Male head of household - male mean annl earn
+D_MNLDXT,d_mnldxt,Father/Male head of household - manual dexterity
+D_MTRCRD,d_mtrcrd,Father/Male head of household - motor coordination
+D_MVC,d_mvc,Father/Male head of household - adapt general measures
+D_NOISE,d_noise,Father/Male head of household - noise or vibrations
+D_NUMERC,d_numerc,Father/Male head of household - numerical aptitude
+D_OBSPRE,d_obspre,Father/Male head of household - activities w objects
+D_OUT,d_out,Father/Male head of household - performed outdoors
+D_PEOPLE,d_people,Father/Male head of household - complexity w people
+D_PEOPRE,d_peopre,Father/Male head of household - work for presumed good
+D_PHYSDM,d_physdm,Father/Male head of household - physical demands
+D_PRODPR,d_prodpr,Father/Male head of household - productive preference
+D_PROTPR,d_protpr,Father/Male head of household - tngbl productive satis
+D_PRSTPR,d_prstpr,Father/Male head of household - prestige of others
+D_PUS,d_pus,Father/Male head of household - adapt perform stress
+D_REACH,d_reach,Father/Male head of household - reaching handling feel
+D_REPCON,d_repcon,Father/Male head of household - adapt repetitive work
+D_ROUTPR,d_routpr,Father/Male head of household - routine activities
+D_SCINPR,d_scinpr,Father/Male head of household - scientific activities
+D_SEE,d_see,Father/Male head of household - seeing
+D_SJC,d_sjc,Father/Male head of household - adapt general judgemtl
+D_SPATIA,d_spatia,Father/Male head of household - spatial aptitude
+D_STOOP,d_stoop,Father/Male head of household - stoop kneel and crawl
+D_STRGTH,d_strgth,Father/Male head of household - strength
+D_STS,d_sts,Father/Male head of household - adapt to situat limits
+D_SVP,d_svp,Father/Male head of household - specific vocation prep
+D_TALK,d_talk,Father/Male head of household - talking or hearing
+D_THINGS,d_things,Father/Male head of household - complexity of things
+D_TRAIN,d_train,Father/Male head of household - training times
+D_VARCH,d_varch,Father/Male head of household - adapt multiple duties
+D_VERBAL,d_verbal,Father/Male head of household - verbal aptitude
+D_WET,d_wet,Father/Male head of household - wet and humid conditn
+D_WOMEN,d_women,Father/Male head of household - women in occupatn 1979
+MINDUS_D,mindus_d,Father/Male head of household - 1 if missing industry code
+PROFID_D,profid_d,Father/Male head of household - professional/related srvcs
+AGRIC_D,agric_d,"Father/Male head of household - agri, forestry, fishry, mining"
+CONSTR_D,constr_d,Father/Male head of household - construction
+MANUF_D,manuf_d,Father/Male head of household - manufacturing
+TRANSP_D,transp_d,"Father/Male head of household - transp, comm, public utility"
+WHOLE_D,whole_d,Father/Male head of household - wholesale trade
+RETAIL_D,retail_d,Father/Male head of household - retail trade
+FNANCE_D,fnance_d,"Father/Male head of household - finance, insurance, real est"
+BUSIN_D,busin_d,Father/Male head of household - business and repair services
+PERSON_D,person_d,Father/Male head of household - personal services
+ENTERT_D,entert_d,"Father/Male head of household - entertainment, recreation serv"
+PUBADM_D,pubadm_d,Father/Male head of household - public administration
+MOCCUP_D,moccup_d,Father/Male head of household - 1 if missing occupation code
+EXEC_D,exec_d,"Father/Male head of household - executive, administ, managerl"
+PROFOC_D,profoc_d,Father/Male head of household - professional specialty
+TECH_D,tech_d,Father/Male head of household - technicians/related support
+SALES_D,sales_d,Father/Male head of household - sales occupations
+ADMIN_D,admin_d,"Father/Male head of household - admin support, incld clerical"
+SERV_D,serv_d,Father/Male head of household - service occupations
+FARM_D,farm_d,"Father/Male head of household - farming, forestry, fishing"
+CRAFT_D,craft_d,"Father/Male head of household - precision prod, craft, repair"
+OPERAT_D,operat_d,"Father/Male head of household - operator, laborer, military"
+A1PC7,a1pc7,Female head of household
+A1PC8,a1pc8,Mother/Female head of household - Highest education level
+A1PC9,a1pc9,Mother/Female head of household - Work for pay
+A1PC9A1,a1pc9a1,Mother/Female head of household - Physical disability or injury
+A1PC9A2,a1pc9a2,Mother/Female head of household - Alcohol or drug abuse
+A1PC9A3,a1pc9a3,Mother/Female head of household - Mental or emotional disability
+A1PC9A4,a1pc9a4,Mother/Female head of household - Stayed home to raise children
+A1PC9A5,a1pc9a5,Mother/Female head of household - Other reason not working for pay
+A1PC11_2,a1pc11_2,Mother/Female head of household - Supervise anyone
+A1PC13_2,a1pc13_2,Mother/Female head of household - Employee or self-employed
+A1POCCM,a1poccm,Mother/Female head of household - occupation
+A1PINDM,a1pindm,Mother/Female head of household - industry
+A1POCMMJ,a1pocmmj,Mother/Female head of household - occupation major group (1980 Census)
+A1PINMMJ,a1pinmmj,Mother/Female head of household - industry major group (1980 Census)
+A1PTSEIM,a1ptseim,Mother/Female head of household - SEI 80 - total
+A1PTEARM,a1ptearm,Mother/Female head of household - logit all earn >= 14.30
+A1PTEDUM,a1ptedum,Mother/Female head of household - logit all educ some col
+A1PFSEIM,a1pfseim,Mother/Female head of household - SEI 80 - female
+A1PFEARM,a1pfearm,Mother/Female head of household - logit wmn earn >= 14.30
+A1PFEDUM,a1pfedum,Mother/Female head of household - logit wmn educ some col
+A1PMSEIM,a1pmseim,Mother/Female head of household - SEI 80 - male
+A1PMEARM,a1pmearm,Mother/Female head of household - logit men earn >= 14.30
+A1PMEDUM,a1pmedum,Mother/Female head of household - logit men educ some col
+M_ABSCRE,m_abscre,Mother/Female head of household - abstract and creative
+M_ATMOSP,m_atmosp,Mother/Female head of household - atmospheric conditions
+M_BOTH,m_both,Mother/Female head of household - prfrmd in and outdoor
+M_BUSPR,m_buspr,Mother/Female head of household - business cntct people
+M_CLERIC,m_cleric,Mother/Female head of household - clerical perception
+M_CLIMB,m_climb,Mother/Female head of household - climbing or balancing
+M_CLRDIS,m_clrdis,Mother/Female head of household - color discrimination
+M_COLD,m_cold,Mother/Female head of household - extreme cold
+M_COMMDA,m_commda,Mother/Female head of household - communication of data
+M_DATAL,m_datal,Mother/Female head of household - cmplxty - rltn to data
+M_DATAPR,m_datapr,Mother/Female head of household - data preference
+M_DCP,m_dcp,Mother/Female head of household - adapt accept rspnsblty
+M_DEPL,m_depl,Mother/Female head of household - adapt people instrctn
+M_ENVIRO,m_enviro,Mother/Female head of household - environment condition
+M_EYHNFT,m_eyhnft,Mother/Female head of household - eye hand foot coordntn
+M_FIF,m_fif,Mother/Female head of household - adapt situ feel - view
+M_FMNHR,m_fmnhr,Mother/Female head of household - female mean hrly earn
+M_FMNYR,m_fmnyr,Mother/Female head of household - female mean annl earn
+M_FNGRDX,m_fngrdx,Mother/Female head of household - finger dexterity
+M_FRMPRC,m_frmprc,Mother/Female head of household - form perception
+M_GED,m_ged,Mother/Female head of household - gnrl education devlpmt
+M_HAZARD,m_hazard,Mother/Female head of household - hazards
+M_HEAT,m_heat,Mother/Female head of household - extreme heat
+M_INFLU,m_influ,Mother/Female head of household - adapt influence ideas
+M_INTELL,m_intell,Mother/Female head of household - intelligence aptitude
+M_MACHPR,m_machpr,Mother/Female head of household - activities w machines
+M_MCHNPR,m_mchnpr,Mother/Female head of household - machine preference
+M_MEN,m_men,Mother/Female head of household - men in occupation 1979
+M_MMNHR,m_mmnhr,Mother/Female head of household - male mean hrly earn
+M_MMNYR,m_mmnyr,Mother/Female head of household - male mean annl earn
+M_MNLDXT,m_mnldxt,Mother/Female head of household - manual dexterity
+M_MTRCRD,m_mtrcrd,Mother/Female head of household - motor coordination
+M_MVC,m_mvc,Mother/Female head of household - adapt general measures
+M_NOISE,m_noise,Mother/Female head of household - noise or vibrations
+M_NUMERC,m_numerc,Mother/Female head of household - numerical aptitude
+M_OBSPRE,m_obspre,Mother/Female head of household - activities w objects
+M_OUT,m_out,Mother/Female head of household - performed outdoors
+M_PEOPLE,m_people,Mother/Female head of household - complexity w people
+M_PEOPRE,m_peopre,Mother/Female head of household - work for presumed good
+M_PHYSDM,m_physdm,Mother/Female head of household - physical demands
+M_PRODPR,m_prodpr,Mother/Female head of household - productive preference
+M_PROTPR,m_protpr,Mother/Female head of household - tngbl productive satis
+M_PRSTPR,m_prstpr,Mother/Female head of household - prestige of others
+M_PUS,m_pus,Mother/Female head of household - adapt perform stress
+M_REACH,m_reach,Mother/Female head of household - reaching handling feel
+M_REPCON,m_repcon,Mother/Female head of household - adapt repetitive work
+M_ROUTPR,m_routpr,Mother/Female head of household - routine activities
+M_SCINPR,m_scinpr,Mother/Female head of household - scientific activities
+M_SEE,m_see,Mother/Female head of household - seeing
+M_SJC,m_sjc,Mother/Female head of household - adapt general judgemtl
+M_SPATIA,m_spatia,Mother/Female head of household - spatial aptitude
+M_STOOP,m_stoop,Mother/Female head of household - stoop kneel and crawl
+M_STRGTH,m_strgth,Mother/Female head of household - strength
+M_STS,m_sts,Mother/Female head of household - adapt to situat limits
+M_SVP,m_svp,Mother/Female head of household - specific vocation prep
+M_TALK,m_talk,Mother/Female head of household - talking or hearing
+M_THINGS,m_things,Mother/Female head of household - complexity of things
+M_TRAIN,m_train,Mother/Female head of household - training times
+M_VARCH,m_varch,Mother/Female head of household - adapt multiple duties
+M_VERBAL,m_verbal,Mother/Female head of household - verbal aptitude
+M_WET,m_wet,Mother/Female head of household - wet and humid conditn
+M_WOMEN,m_women,Mother/Female head of household - women in occupatn 1979
+MINDUS_M,mindus_m,Mother/Female head of household - 1 if missing industry code
+PROFID_M,profid_m,Mother/Female head of household - professional / related srvcs
+AGRIC_M,agric_m,"Mother/Female head of household - agri, forestry, fishry, mining"
+CONSTR_M,constr_m,Mother/Female head of household - construction
+MANUF_M,manuf_m,Mother/Female head of household - manufacturing
+TRANSP_M,transp_m,"Mother/Female head of household - transp, comm, public utility"
+WHOLE_M,whole_m,Mother/Female head of household - wholesale trade
+RETAIL_M,retail_m,Mother/Female head of household - retail trade
+FNANCE_M,fnance_m,"Mother/Female head of household - finance, insurance, real est"
+BUSIN_M,busin_m,Mother/Female head of household - business and repair services
+PERSON_M,person_m,Mother/Female head of household - personal services
+ENTERT_M,entert_m,"Mother/Female head of household - entertainment, recreation serv"
+PUBADM_M,pubadm_m,Mother/Female head of household - public administration
+MOCCUP_M,moccup_m,Mother/Female head of household - 1 if missing occupation code
+EXEC_M,exec_m,"Mother/Female head of household - executive, administ, managerl"
+PROFOC_M,profoc_m,Mother/Female head of household - professional specialty
+TECH_M,tech_m,Mother/Female head of household - technicians / related support
+SALES_M,sales_m,Mother/Female head of household - sales occupations
+ADMIN_M,admin_m,"Mother/Female head of household - admin support, incld clerical"
+SERV_M,serv_m,Mother/Female head of household - service occupations
+FARM_M,farm_m,"Mother/Female head of household - farming, forestry, fishing"
+CRAFT_M,craft_m,"Mother/Female head of household - precision prod, craft, repair"
+OPERAT_M,operat_m,"Mother/Female head of household - operator, laborer, military"
+A1PC14,a1pc14,Family on welfare or ADC
+A1PC15,a1pc15,How often on welfare
+A1PD1,a1pd1,Satisfied with life at present
+A1PD2,a1pd2,Control over life in general at present
+A1PD3,a1pd3,Satisfied with self at present
+A1PD8,a1pd8,Rate contribution to others (whole life)
+A1PD9,a1pd9,"Disappointed by achievement (agree, disagree)"
+A1PD9A,a1pd9a,Disappointed by achievement (agree/disagree level)
+A1PD4,a1pd4,Outgoing describes you
+A1PD5,a1pd5,Worrying describes you
+A1PD6,a1pd6,Curious describes you
+A1PD7,a1pd7,Optimistic describes you
+A1SA1,a1sa1,Rate health current
+A1SA2,a1sa2,Rate health 10 years ago
+A1SHLTCH,a1shltch,Change in health status
+A1SA3,a1sa3,Rate health 10 years future
+A1SHLTEX,a1shltex,Change in health expectations
+A1SA4,a1sa4,Rate control over health
+A1SA5,a1sa5,Rate thought/effort put into health
+A1SSATIS,a1ssatis,Life Satisfaction (5-item version)
+A1SA6A,a1sa6a,Compare energy now to 5 years ago
+A1SA6B,a1sa6b,Compare fitness now to 5 years ago
+A1SA6C,a1sa6c,Compare physique/figure now to 5 years ago
+A1SA6D,a1sa6d,Compare weight now to 5 years ago
+A1SA7A,a1sa7a,Keeping healthy depends on things I do
+A1SA7B,a1sa7b,Things I can do to reduce heart attack risk
+A1SA7C,a1sa7c,Things I can do to reduce cancer risk
+A1SA7D,a1sa7d,I work hard at trying to stay healthy
+A1SA7E,a1sa7e,Getting better is in doctor’s hands
+A1SA7F,a1sa7f,Difficult to get good medical care
+A1SHLOCS,a1shlocs,Health Locus of Control - Self
+A1SHLOCO,a1shloco,Health Locus of Control - Others
+A1SA8A,a1sa8a,Often aware of various things in my body
+A1SA8B,a1sa8b,Sudden loud noises really bother me
+A1SA8C,a1sa8c,Hate to be too hot/too cold
+A1SA8D,a1sa8d,Quick to sense hunger contractions
+A1SA8E,a1sa8e,Low pain tolerance
+A1SAMOLI,a1samoli,Somatic Amplification
+A1SA9A,a1sa9a,Asthma/bronchitis/emphysema ever (12 months)
+A1SA9B,a1sa9b,Tuberculosis ever (12 months)
+A1SA9C,a1sa9c,Other lung problems ever (12 months)
+A1SA9D,a1sa9d,Joint/bone diseases ever (12 months)
+A1SA9E,a1sa9e,Sciatica/lumbago/backache ever (12 months)
+A1SA9F,a1sa9f,Skin trouble persistent ever (12 months)
+A1SA9G,a1sa9g,Thyroid disease ever (12 months)
+A1SA9H,a1sa9h,Hay fever ever (12 months)
+A1SA9I,a1sa9i,Stomach trouble ever (12 months)
+A1SA9J,a1sa9j,Urinary/bladder problem ever (12 months)
+A1SA9K,a1sa9k,Constipated all/most ever (12 months)
+A1SA9L,a1sa9l,Gall bladder trouble ever (12 months)
+A1SA9M,a1sa9m,Foot trouble persistent ever (12 months)
+A1SA9N,a1sa9n,Varicose veins ever (12 months)
+A1SA9O,a1sa9o,AIDS/HIV ever (12 months)
+A1SA9P,a1sa9p,Lupus/autoimmune disorder ever (12 months)
+A1SA9Q,a1sa9q,Gum/mouth trouble persistent ever (12 months)
+A1SA9R,a1sa9r,Teeth trouble persistent ever (12 months)
+A1SA9S,a1sa9s,High blood pressure/hypertension ever (12 months)
+A1SA9T,a1sa9t,Anxiety/depression ever (12 months)
+A1SA9U,a1sa9u,Alcohol/drug problem ever (12 months)
+A1SA9V,a1sa9v,Migraine headaches ever (12 months)
+A1SA9W,a1sa9w,Chronic sleep problems ever (12 months)
+A1SA9X,a1sa9x,Diabetes/high blood sugar ever (12 months)
+A1SA9Y,a1sa9y,Neurological disorder ever (12 months)
+A1SA9Z,a1sa9z,Stroke ever (12 months)
+A1SA9AA,a1sa9aa,Ulcer ever (12 months)
+A1SA9BB,a1sa9bb,Hernia ever (12 months)
+A1SA9CC,a1sa9cc,Piles/hemorrhoids ever (12 months)
+A1SCHRON,a1schron,Number of Chronic Conditions (12 months)
+A1SCHROX,a1schrox,Having Any Chronic Conditions (12 months)
+A1SA10A,a1sa10a,RX hypertension ever (30 days)
+A1SA10B,a1sa10b,RX diabetes ever (30 days)
+A1SA10C,a1sa10c,RX cholesterol ever (30 days)
+A1SA10D,a1sa10d,RX heart condition ever (30 days)
+A1SA10E,a1sa10e,RX lung problems ever (30 days)
+A1SA10F,a1sa10f,RX ulcer ever (30 days)
+A1SA10G,a1sa10g,RX arthritis ever (30 days)
+A1SA10H,a1sa10h,RX hormone therapy ever (30 days)
+A1SA10I,a1sa10i,RX birth control ever (30 days)
+A1SA10J,a1sa10j,RX headaches ever (30 days)
+A1SA10K,a1sa10k,RX anxiety/depression ever (30 days)
+A1SRXMED,a1srxmed,Total Numbers of RX medicine taking (30 days)
+A1SRXMEX,a1srxmex,Took any RX medicine (30 days)
+A1SA11A,a1sa11a,Takes multi-vitamins regularly
+A1SA11B,a1sa11b,Takes vitamin C regularly
+A1SA11C,a1sa11c,Takes iron regularly
+A1SA11D,a1sa11d,Takes calcium regularly
+A1SA11E,a1sa11e,Takes other supplement regularly
+A1SVITAM,a1svitam,Takes Any Supplements Regularly
+A1SA12A,a1sa12a,Headaches frequency (30 days)
+A1SA12B,a1sa12b,Backaches frequency (30 days)
+A1SA12C,a1sa12c,Sweat frequency (30 days)
+A1SA12D,a1sa12d,Irritability frequency (30 days)
+A1SA12E,a1sa12e,Hot flushes/flashes frequency (30 days)
+A1SA12F,a1sa12f,Aches/joint stiffness frequency (30 days)
+A1SA12G,a1sa12g,Falling/staying sleep frequency (30 days)
+A1SA12H,a1sa12h,Leaking urine frequency (30 days)
+A1SA12I,a1sa12i,Intercourse pain/discomfort frequency (30 days)
+A1SSYMPT,a1ssympt,Symptoms of headaches etc
+A1SA13A,a1sa13a,Felt so sad nothing could cheer frequency (30 days)
+A1SA13B,a1sa13b,Felt nervous frequency (30 days)
+A1SA13C,a1sa13c,Felt restless frequency (30 days)
+A1SA13D,a1sa13d,Felt hopeless frequency (30 days)
+A1SA13E,a1sa13e,Felt everything was effort frequency (30 days)
+A1SA13F,a1sa13f,Felt worthless frequency (30 days)
+A1SNEGAF,a1snegaf,Negative Affect
+A1SA14,a1sa14,More or less than usual negative feelings (30 days)
+A1SA15A,a1sa15a,Felt cheerful frequency (30 days)
+A1SA15B,a1sa15b,Felt good spirits frequency (30 days)
+A1SA15C,a1sa15c,Felt extremely happy frequency (30 days)
+A1SA15D,a1sa15d,Felt calm and peaceful frequency (30 days)
+A1SA15E,a1sa15e,Felt satisfied frequency (30 days)
+A1SA15F,a1sa15f,Felt full of life frequency (30 days)
+A1SPOSAF,a1sposaf,Positive Affect
+A1SA16,a1sa16,More or less than usual positive feelings (30 days)
+A1SA17A,a1sa17a,Health limits lifting/carrying groceries
+A1SA17B,a1sa17b,Health limits bathing/dressing self
+A1SA17C,a1sa17c,Health limits climb several flight stair
+A1SA17D,a1sa17d,Health limits bending/kneeling/stooping
+A1SA17E,a1sa17e,Health limits walking more than one mile
+A1SA17F,a1sa17f,Health limits walking several blocks
+A1SA17G,a1sa17g,Health limits walking one block
+A1SA17H,a1sa17h,Health limits vigorous activity
+A1SA17I,a1sa17i,Health limits moderate activity
+A1SBADL,a1sbadl,Basic Activity of Daily Living (2-item version)
+A1SIADL,a1siadl,Instrumental Activity of Daily Living
+A1SA18,a1sa18,Summer vigorous activity
+A1SA19,a1sa19,Winter vigorous activity
+A1SVIGOR,a1svigor,Times/month vigorous activity
+A1SA20,a1sa20,Summer moderate activity
+A1SA21,a1sa21,Winter moderate activity
+A1SMODER,a1smoder,Times/month moderate activity
+A1SA22A,a1sa22a,Short breath hurry ground/walk slight hill
+A1SA22B,a1sa22b,Short breath walk with peer level ground
+A1SA22C,a1sa22c,Short breath walk own pace level ground
+A1SA22D,a1sa22d,Short breath washing/dressing
+A1SDYSPN,a1sdyspn,Progressive Levels of Dyspnea
+A1SA23,a1sa23,Waist around navel (inches)
+A1SA24,a1sa24,Hips at widest point (inches)
+A1SWSTHI,a1swsthi,Waist-to-Hip Ratio
+A1SA25,a1sa25,Height (inches)
+A1SA26,a1sa26,"Perception of weight (over, under, etc)"
+A1SA27,a1sa27,Weight current (pounds)
+A1SBMI,a1sbmi,Body Mass Index
+A1SA28,a1sa28,Weight 1 year ago (pounds)
+A1SA29,a1sa29,Weight when 21 years old
+A1SA30A,a1sa30a,Lose 10 pounds because of health problem
+A1SA30B,a1sa30b,Lose 10 pounds by diet or exercise
+A1SA30C,a1sa30c,Lose 10 pounds by other reason
+A1SA31,a1sa31,Number of times lost 10 pounds or more (10 years)
+A1SA32,a1sa32,Anesthesia ever
+A1SA32A,a1sa32a,Anesthesia most recent year
+A1SA33,a1sa33,Number of times hospitalized overnight (12 months)
+A1SA33A,a1sa33a,Total number of nights in hospital (12 months)
+A1SA34,a1sa34,Place for medical care
+A1SA35,a1sa35,One doctor seen for medical care
+A1SA36A,a1sa36a,Number of times physical routine exam (12 months)
+A1SA36B,a1sa36b,Number of times dental routine exam (12 months)
+A1SA36C,a1sa36c,Number of times urgent care (12 months)
+A1SA36D,a1sa36d,Number of times scheduled treatment/surgery (12 months)
+A1SUSEMD,a1susemd,Number of times Seeing Medical Doctor (12 months)
+A1SA37A,a1sa37a,Number of times psychiatrist for mental health (12 months)
+A1SA37B,a1sa37b,Number of times general doctor for mental health (12 months)
+A1SA37C,a1sa37c,Number of times counselor for mental health (12 months)
+A1SA37D,a1sa37d,Number of times religious for mental health (12 months)
+A1SUSEMH,a1susemh,Number of times Saw Mental Health Professional (12 months)
+A1SA38A,a1sa38a,Ever attended substance problems group
+A1SA38AY,a1sa38ay,First age substance problems group
+A1SA38AZ,a1sa38az,Number of times substance problems group
+A1SA38B,a1sa38b,Ever attended emotional problems group
+A1SA38BY,a1sa38by,First age attended emotional problems group
+A1SA38BZ,a1sa38bz,Number of times attended emotional problems group
+A1SA38C,a1sa38c,Ever attended eating problems group
+A1SA38CY,a1sa38cy,First age eating problems group
+A1SA38CZ,a1sa38cz,Number of times eating problems group
+A1SA38D,a1sa38d,Ever attended loss of loved one group
+A1SA38DY,a1sa38dy,First age attended loss of loved one group
+A1SA38DZ,a1sa38dz,Number of times attended loss of loved one group
+A1SA38E,a1sa38e,Ever attended life transitions group
+A1SA38EY,a1sa38ey,First age attended life transitions group
+A1SA38EZ,a1sa38ez,Number of times attended life transitions group
+A1SA38F,a1sa38f,Ever attended survivors group
+A1SA38FY,a1sa38fy,First age attended survivors group
+A1SA38FZ,a1sa38fz,Number of times attended survivors group
+A1SA38G,a1sa38g,Ever attended physical disabilities group
+A1SA38GY,a1sa38gy,First age attended physical disabilities group
+A1SA38GZ,a1sa38gz,Number of times attended physical disabilities group
+A1SA38H,a1sa38h,Ever attended parent support group
+A1SA38HY,a1sa38hy,First age attended parent support group
+A1SA38HZ,a1sa38hz,Number of times attended parent support group
+A1SA38I,a1sa38i,Ever attended family with illness group
+A1SA38IY,a1sa38iy,First age attended family with illness group
+A1SA38IZ,a1sa38iz,Number of times attended family with illness group
+A1SA38J,a1sa38j,Ever attended family with emotional/substance group
+A1SA38JY,a1sa38jy,First age attended family with emotional/substance group
+A1SA38JZ,a1sa38jz,Number of times attended family with emotional/substance group
+A1SA38K,a1sa38k,Ever attended other self-help/support group
+A1SA38KY,a1sa38ky,First age attend other self-help/support group
+A1SA38KZ,a1sa38kz,Number of times attend other self-help/support group
+A1SA39A,a1sa39a,Acupuncture frequency (12 months)
+A1SA39B,a1sa39b,Biofeedback frequency (12 months)
+A1SA39C,a1sa39c,Chiropractor frequency (12 months)
+A1SA39D,a1sa39d,Energy healing frequency (12 months)
+A1SA39E,a1sa39e,Exercise/movement therapy frequency (12 months)
+A1SA39F,a1sa39f,Herbal therapy frequency (12 months)
+A1SA39G,a1sa39g,High dose mega-vitamins frequency (12 months)
+A1SA39H,a1sa39h,Homeopathy frequency (12 months)
+A1SA39I,a1sa39i,Hypnosis frequency (12 months)
+A1SA39J,a1sa39j,Imagery techniques frequency (12 months)
+A1SA39K,a1sa39k,Massage therapy frequency (12 months)
+A1SA39L,a1sa39l,Prayer/other spiritual frequency (12 months)
+A1SA39M,a1sa39m,Relaxation/mediation frequency (12 months)
+A1SA39N,a1sa39n,Special diet frequency (12 months)
+A1SA39O,a1sa39o,Spiritual healing by others frequency (12 months)
+A1SA39P,a1sa39p,Other non-traditional therapy frequency (12 months)
+A1SALTER,a1salter,Used alternative medical treatment
+A1SA40A,a1sa40a,Used sedatives on own ever (12 months)
+A1SA40B,a1sa40b,Used tranquilizers on own ever (12 months)
+A1SA40C,a1sa40c,Used stimulants on own ever (12 months)
+A1SA40D,a1sa40d,Used painkillers on own ever (12 months)
+A1SA40E,a1sa40e,Used depress medications on own ever (12 months)
+A1SA40F,a1sa40f,Used inhalants on own ever (12 months)
+A1SA40G,a1sa40g,Used marijuana/hashish on own ever (12 months)
+A1SA40H,a1sa40h,Used cocaine/crack on own ever (12 months)
+A1SA40I,a1sa40i,Used LSD/other hallucinogens on own ever (12 months)
+A1SA40J,a1sa40j,Used heroin on own ever (12 months)
+A1SA41,a1sa41,Number of times substance more than intended (12 months)
+A1SA42,a1sa42,Number of times substance effects at work/etc (12 months)
+A1SA43A,a1sa43a,Substance increased chance of hurt (12 months)
+A1SA43B,a1sa43b,Emotional problems from substance (12 months)
+A1SA43C,a1sa43c,Strong desire for substance (12 months)
+A1SA43D,a1sa43d,A month or more a lot time using substance (12 months)
+A1SA43E,a1sa43e,Needed more substance to get effect (12 months)
+A1SA44A,a1sa44a,Got hurt from drinking (12 months)
+A1SA44B,a1sa44b,Emotional problems from drinking (12 months)
+A1SA44C,a1sa44c,Desire/urge from drinking (12 months)
+A1SA44D,a1sa44d,A month or more much time drinking (12 months)
+A1SA44E,a1sa44e,Had drink more to get effects (12 months)
+A1SA45,a1sa45,Number of times alcohol more than intended (12 months)
+A1SA46,a1sa46,Number of times alcohol effects at work/etc (12 months)
+A1SB1,a1sb1,Age 1st menstrual period
+A1SB2,a1sb2,Menstrual discomfort before
+A1SB3,a1sb3,Menstrual discomfort during
+A1SB4,a1sb4,Relief or regret menstrual periods stop
+A1SB5A,a1sb5a,Pain relievers for menopausal symptoms
+A1SB5B,a1sb5b,Sleeping pills for menopausal symptoms
+A1SB5C,a1sb5c,Cream/jellies for menopausal symptoms
+A1SB6,a1sb6,Hormone replacement
+A1SB6A,a1sb6a,Age started hormone replacement
+A1SB6B,a1sb6b,Still taking hormone replacement
+A1SB6C,a1sb6c,Age stopped hormone replacement
+A1SB7A1,a1sb7a1,Operation hysterectomy
+A1SB7A2,a1sb7a2,Age had hysterectomy
+A1SB7B1,a1sb7b1,Operation removal uterus and 1 ovary
+A1SB7B2,a1sb7b2,Age had removal uterus and 1 ovary
+A1SB7C1,a1sb7c1,Operation removal uterus and 2 ovaries
+A1SB7C2,a1sb7c2,Age had removal uterus and 2 ovaries
+A1SB7D1,a1sb7d1,Operation removal one ovary
+A1SB7D2,a1sb7d2,Age had removal one ovary
+A1SB7E1,a1sb7e1,Operation removal both ovaries
+A1SB7E2,a1sb7e2,Age had removal both ovaries
+A1SB7F1,a1sb7f1,Operation tubal ligation
+A1SB7F2,a1sb7f2,Age had tubal ligation
+A1SB8A,a1sb8a,Worry about infertility as get older
+A1SB8B,a1sb8b,Worry about less attractive as get older
+A1SB8C,a1sb8c,Worry about illness as get older
+A1SB9,a1sb9,Menstrual period stopped
+A1SB9A,a1sb9a,Age of last menstrual period
+A1SB10,a1sb10,Had menstrual period last 3 months (regular)
+A1SB10A,a1sb10a,Number of days between periods less predict now
+A1SB10B,a1sb10b,"Menstrual flow lighter, heavier, same"
+A1SB10C,a1sb10c,Why no period
+A1SC1A,a1sc1a,Respondent - Insurer directly provides health insurance
+A1SC1B,a1sc1b,Respondent - Employer provides health insurance
+A1SC1C,a1sc1c,Respondent - Spouse/partner's employer provides health insurance
+A1SC1D,a1sc1d,Respondent - Union provides health insurance
+A1SC1E,a1sc1e,Respondent - Spouse/partner's union provides health insurance
+A1SC1F,a1sc1f,Respondent - Medicare provides health insurance
+A1SC1G,a1sc1g,Respondent - Medicaid/other provide health insurance
+A1SC1H,a1sc1h,Respondent - Military provides health insurance
+A1SC2,a1sc2,Respondent - Mental health visits covered by health insurance
+A1SC3A,a1sc3a,Employer health insurance available
+A1SC3B,a1sc3b,Spouse/partner's employer health insurance available
+A1SC3C,a1sc3c,Union health insurance available
+A1SC3D,a1sc3d,Spouse/partner's union health insurance available
+A1SC4A,a1sc4a,Medicare health insurance available
+A1SC4B,a1sc4b,Medicaid health insurance available
+A1SC4C,a1sc4c,Military health insurance available
+A1SC5A,a1sc5a,Spouse/partner - Insurer directly provides health insurance
+A1SC5B,a1sc5b,Spouse/partner - Respondent's employer provides health insurance
+A1SC5C,a1sc5c,Spouse/partner - Spouse/partner's own employer provides health insurance
+A1SC5D,a1sc5d,Spouse/partner - Respondent's union provides health insurance
+A1SC5E,a1sc5e,Spouse/partner - Spouse/partner's own union provides health insurance
+A1SC5F,a1sc5f,Spouse/partner - Medicare provides health insurance
+A1SC5G,a1sc5g,Spouse/partner - Medicaid/other provides health insurance
+A1SC5H,a1sc5h,Spouse/partner - Military provides health insurance
+A1SC6,a1sc6,Spouse/partner - Mental health visits covered by health insurance
+A1SD1,a1sd1,Mothers past health
+A1SD2,a1sd2,Biological mother still alive
+A1SD2A,a1sd2a,Age of biological mother
+A1SD2B,a1sd2b,Rate physical health of biological mother
+A1SD2C,a1sd2c,Death of biological mother (year)
+A1SD2D,a1sd2d,Mother's age at time of death
+A1SD3,a1sd3,Fathers past health
+A1SD4,a1sd4,Biological father still alive
+A1SD4A,a1sd4a,Age of biological father
+A1SD4B,a1sd4b,Rate physical health of biological father
+A1SD4C,a1sd4c,Death of biological father (year)
+A1SD4D,a1sd4d,Father's age at time of death
+A1SE2,a1se2,Born in US
+A1SE3,a1se3,Mother born in US
+A1SE4,a1se4,Father born in US
+A1SE5,a1se5,Language spoken
+A1SE6,a1se6,Religion importance
+A1SE7,a1se7,Area where raised
+A1SE8,a1se8,Number of times moved to new neighborhood
+A1SE9,a1se9,Financial level growing up
+A1SE10,a1se10,Parents financial level when they were age you are now
+A1SE11,a1se11,Chores growing up
+A1SE12,a1se12,Rules on how to spend time
+A1SE13,a1se13,Mother - Relationship with
+A1SE14A,a1se14a,Mother - Understand problems
+A1SE14B,a1se14b,Mother - Confide in her
+A1SE14C,a1se14c,Mother - Love and affection
+A1SE14D,a1se14d,Mother - Time and attention
+A1SE14E,a1se14e,Mother - Upbringing
+A1SE14F,a1se14f,Mother - Strictness
+A1SE14G,a1se14g,Mother - Consistent rules
+A1SE14H,a1se14h,Mother - Punishment
+A1SE14I,a1se14i,Mother - Stop from doing things
+A1SE14J,a1se14j,Mother - Do best
+A1SE14K,a1se14k,Mother - Teach about life
+A1SE14L,a1se14l,Mother - Generosity
+A1SE14M,a1se14m,Mother - Sociable and friendly
+A1SEMA,a1sema,Maternal affection
+A1SEMD,a1semd,Maternal discipline
+A1SMMOD,a1smmod,Maternal Model of Generosity
+A1SE15,a1se15,Father - Relationship with
+A1SE16A,a1se16a,Father - Understand problems
+A1SE16B,a1se16b,Father - Confide in father
+A1SE16C,a1se16c,Father - Love and affection
+A1SE16D,a1se16d,Father - Time and attention
+A1SE16E,a1se16e,Father - Upbringing
+A1SE16F,a1se16f,Father - Strictness
+A1SE16G,a1se16g,Father - Consistent rules
+A1SE16H,a1se16h,Father - Punishment
+A1SE16I,a1se16i,Father - Stop from doing things
+A1SE16J,a1se16j,Father - Do best
+A1SE16K,a1se16k,Father - Teach about life
+A1SE16L,a1se16l,Father - Generosity
+A1SE16M,a1se16m,Father - Sociable and friendly
+A1SEFA,a1sefa,Paternal affection
+A1SEFD,a1sefd,Paternal discipline
+A1SEFMOD,a1sefmod,Paternal Model of Generosity
+A1SEMAPA,a1semapa,Parental Affection
+A1SE17A,a1se17a,Emotional abuse - mother
+A1SE17B,a1se17b,Emotional abuse - father
+A1SE17C,a1se17c,Emotional abuse - brothers
+A1SE17D,a1se17d,Emotional abuse - sisters
+A1SE17E,a1se17e,Emotional abuse - anyone else
+A1SE17F,a1se17f,Physical abuse - mother
+A1SE17G,a1se17g,Physical abuse - father
+A1SE17H,a1se17h,Physical abuse - brother
+A1SE17I,a1se17i,Physical abuse - sister
+A1SE17J,a1se17j,Physical abuse - anyone else
+A1SE17K,a1se17k,Severe physical abuse - mother
+A1SE17L,a1se17l,Severe physical abuse - father
+A1SE17M,a1se17m,Severe physical abuse - brother
+A1SE17N,a1se17n,Severe physical abuse - sister
+A1SE17O,a1se17o,Severe physical abuse - Anyone else
+A1SE18A,a1se18a,Number of older brothers
+A1SE18B,a1se18b,Number of younger brothers
+A1SE18C,a1se18c,Number of brothers same age
+A1SE19A,a1se19a,Number of older sisters
+A1SE19B,a1se19b,Number of younger sisters
+A1SE19C,a1se19c,Number of sisters same age
+A1SF1A,a1sf1a,Life most aspects of my personality
+A1SF1B,a1sf1b,Pleased with how life turned out
+A1SF1C,a1sf1c,"Some wander aimlessly, but not me"
+A1SF1D,a1sf1d,Demands of everyday life often get me down
+A1SF1E,a1sf1e,Disappointed about achievements in life
+A1SF1F,a1sf1f,Maintaining close relationships difficult
+A1SF1G,a1sf1g,"Live life day by day, don't think about future"
+A1SF1H,a1sf1h,In charge of situation in which I live
+A1SF1I,a1sf1i,Good managing daily responsibilities
+A1SF1J,a1sf1j,Done all there is to do in life
+A1SF1K,a1sf1k,Life process of learning/changing/growth
+A1SF1L,a1sf1l,Experience challenge how think important
+A1SF1M,a1sf1m,Others describe me as giving/share time
+A1SF1N,a1sf1n,Gave up try making improvements long ago
+A1SF1O,a1sf1o,Influenced by people with strong opinions
+A1SF1P,a1sf1p,No experience warm and trusting relationships
+A1SF1Q,a1sf1q,Confidence in my opinions even if contrary
+A1SF1R,a1sf1r,Judge self by what I think is important
+A1SF1S,a1sf1s,Little can do to change important things
+A1SF1T,a1sf1t,Helpless dealing with problems of life
+A1SF1U,a1sf1u,Do just about anything I set my mind to
+A1SF1V,a1sf1v,Others determine what I can and cannot do
+A1SF1W,a1sf1w,What happens in life is beyond my control
+A1SF1X,a1sf1x,"When really want something, find way"
+A1SF1Y,a1sf1y,Many things interfere with what I want do
+A1SF1Z,a1sf1z,Whether I get what want is in own hands
+A1SF1AA,a1sf1aa,Little control over things happen to me
+A1SF1BB,a1sf1bb,Really no way I can solve problems I have
+A1SF1CC,a1sf1cc,Feel pushed around in life
+A1SF1DD,a1sf1dd,Happens to me in future depends on me
+A1SCTRL,a1sctrl,Sense of Control (Mastery + Constraints)
+A1SPWBA,a1spwba,Autonomy (Psychological Well-Being 3-item)
+A1SPWBE,a1spwbe,Environmental Mastery (Psychological Well-Being 3-item)
+A1SPWBG,a1spwbg,Personal Growth (Psychological Well-Being 3-item)
+A1SPWBR,a1spwbr,Positive Relations with Others (Psychological Well-Being 3-item)
+A1SPWBU,a1spwbu,Purpose in Life (Psychological Well-Being 3-item)
+A1SPWBS,a1spwbs,Self-Acceptance (Psychological Well-Being 3-item)
+A1SCONST,a1sconst,Perceived constraints
+A1SMASTE,a1smaste,Personal mastery
+A1SF2A,a1sf2a,Women can have full and happy lives without marrying
+A1SF2B,a1sf2b,Employed mothers can have just as good a relationship with children
+A1SF2C,a1sf2c,Children need to be raised in a family with both parents
+A1SF2D,a1sf2d,Men should share equally with their wives
+A1SF2E,a1sf2e,Men can have full and happy lives without marrying
+A1SF2F,a1sf2f,Women can have full and happy lives without any children
+A1SF2G,a1sf2g,Men can have full and happy lives without any children
+A1SF2H,a1sf2h,Partner who puts in the fewest hours at work should do most household chores
+A1SF2I,a1sf2i,Partner who earns the least money should do most household chores
+A1SF2J,a1sf2j,Single parents can rear children just as well as married adults
+A1SF2K,a1sf2k,Men should share equally with their wives in taking care of children
+A1SMAR,a1smar,Can Be Happy without Marry
+A1SFAM,a1sfam,Can Be Happy without Marry or Children
+A1SF3A,a1sf3a,Where there's a will there's a way
+A1SF3B,a1sf3b,Do what can to change for better
+A1SF3C,a1sf3c,"If expectation not being met, lower them"
+A1SF3D,a1sf3d,"To avoid disappointments, don't set goals too high"
+A1SF3E,a1sf3e,Learn meaningful from difficult situation
+A1SF3F,a1sf3f,Relieved when let go of responsibilities
+A1SF3G,a1sf3g,"Even when feel too much, get it all done"
+A1SF3H,a1sf3h,Find different way of looking at things
+A1SF3I,a1sf3i,Remind myself I can't do everything
+A1SF3J,a1sf3j,"When problems, don't give up until solve them"
+A1SF3K,a1sf3k,Rarely give up even when get tough
+A1SF3L,a1sf3l,"Can't get want, assume goals unrealistic"
+A1SF3M,a1sf3m,"When go wrong, usually find bright side"
+A1SF3N,a1sf3n,Find positive even in worst situations
+A1SF3O,a1sf3o,Like to make plans for future
+A1SF3P,a1sf3p,Know what I want out of life
+A1SF3Q,a1sf3q,I live one day at a time
+A1SF3R,a1sf3r,Head off bad thing before happen
+A1SF3S,a1sf3s,Can sense opportunities
+A1SF3T,a1sf3t,Helpful to set goals for near future
+A1SF3U,a1sf3u,Too many things today to worry about tomorrow
+A1SF3V,a1sf3v,Past helps me figure out what do present
+A1SF3W,a1sf3w,No use in thinking about past because nothing can be done
+A1SF3X,a1sf3x,"Bad happens, think how could prevented"
+A1SF3Y,a1sf3y,Too busy to think yesterday
+A1SF3Z,a1sf3z,Good predicting my future
+A1SF3AA,a1sf3aa,Good at figuring how things turn out
+A1SF3BB,a1sf3bb,No sense in planning too far ahead
+A1SF3CC,a1sf3cc,Make sense of what happened
+A1SF3DD,a1sf3dd,Insights into way things turn out
+A1SF3EE,a1sf3ee,Don't like ask others for help unless have to
+A1SF3FF,a1sf3ff,Deal with own problems myself
+A1SF3GG,a1sf3gg,Asking others comes naturally for me
+A1SF3HH,a1sf3hh,Not let other know when things bad
+A1SF3II,a1sf3ii,Like advice before making decision
+A1SF3JJ,a1sf3jj,Feel better if talk when upset
+A1SF3KK,a1sf3kk,Prefer to make decisions on own
+A1SPERSI,a1spersi,Persist in Goal Striving (Primary Control)
+A1SCHANG,a1schang,Lower Aspirations (Secondary Control)
+A1SREAPP,a1sreapp,Positive Reappraisal (Secondary Control)
+A1SDIREC,a1sdirec,Self Directedness and Planning
+A1STODAY,a1stoday,Live for today
+A1SFORSG,a1sforsg,Foresight and anticipation
+A1SINSGH,a1sinsgh,Insight into past
+A1SSUFFI,a1ssuffi,Self-sufficiency
+A1SADVIC,a1sadvic,Advice seeking
+A1SF4A,a1sf4a,Outgoing describes you how well
+A1SF4B,a1sf4b,Helpful describes you how well
+A1SF4C,a1sf4c,Moody describes you how well
+A1SF4D,a1sf4d,Organized describes you how well
+A1SF4E,a1sf4e,Self-confident describes you how well
+A1SF4F,a1sf4f,Friendly describes you how well
+A1SF4G,a1sf4g,Warm describes you how well
+A1SF4H,a1sf4h,Worrying describes you how well
+A1SF4I,a1sf4i,Responsible describes you how well
+A1SF4J,a1sf4j,Forceful describes you how well
+A1SF4K,a1sf4k,Lively describes you how well
+A1SF4L,a1sf4l,Caring describes you how well
+A1SF4M,a1sf4m,Nervous describes you how well
+A1SF4N,a1sf4n,Creative describes you how well
+A1SF4O,a1sf4o,Assertive describes you how well
+A1SF4P,a1sf4p,Hardworking describes you how well
+A1SF4Q,a1sf4q,Imaginative describes you how well
+A1SF4R,a1sf4r,Softhearted describes you how well
+A1SF4S,a1sf4s,Calm describes you how well
+A1SF4T,a1sf4t,Outspoken describes you how well
+A1SF4U,a1sf4u,Intelligent describes you how well
+A1SF4V,a1sf4v,Curious describes you how well
+A1SF4W,a1sf4w,Active describes you how well
+A1SF4X,a1sf4x,Careless describes you how well
+A1SF4Y,a1sf4y,Broad minded describes you how well
+A1SF4Z,a1sf4z,Sympathetic describes you how well
+A1SF4AA,a1sf4aa,Talkative describes you how well
+A1SF4BB,a1sf4bb,Sophisticated describes you how well
+A1SF4CC,a1sf4cc,Adventurous describes you how well
+A1SF4DD,a1sf4dd,Dominant describes you how well
+A1SAGENC,a1sagenc,Agency Personality Trait
+A1SAGREE,a1sagree,Agreeableness Personality Trait
+A1SEXTRA,a1sextra,Extraversion Personality Trait
+A1SNEURO,a1sneuro,Neuroticism Personality Trait
+A1SCONS,a1scons,Conscientiousness Personality Trait
+A1SOPEN,a1sopen,Openness Personality Trait
+A1SF5A,a1sf5a,How calm now
+A1SF5B,a1sf5b,How calm 10 years ago
+A1SF5C,a1sf5c,How calm 10 years ahead
+A1SF5D,a1sf5d,How willing to learn now
+A1SF5E,a1sf5e,How willing to learn 10 years ago
+A1SF5F,a1sf5f,How willing to learn 10 years ahead
+A1SF5G,a1sf5g,How energetic now
+A1SF5H,a1sf5h,How energetic 10 years ago
+A1SF5I,a1sf5i,How energetic 10 years ahead
+A1SF5J,a1sf5j,How caring now
+A1SF5K,a1sf5k,How caring 10 years ago
+A1SF5L,a1sf5l,How caring 10 years ahead
+A1SF5M,a1sf5m,How wise now
+A1SF5N,a1sf5n,How wise 10 years ago
+A1SF5O,a1sf5o,How wise 10 years ahead
+A1SF5P,a1sf5p,How knowledgeable now
+A1SF5Q,a1sf5q,How knowledgeable 10 years ago
+A1SF5R,a1sf5r,How knowledgeable 10 years ahead
+A1SF6A,a1sf6a,Choose goals - Focus or keep options open
+A1SF6B,a1sf6b,Reach goals - Practice skill or opportunities
+A1SF6C,a1sf6c,Have no skill for goal - Seek or reconsider
+A1SF7A,a1sf7a,Focus on a few goals 10 years ago
+A1SF7B,a1sf7b,Work hard to reach goals 10 years ago
+A1SF7C,a1sf7c,Do what can to reach goals 10 years ago
+A1SF8A,a1sf8a,Focus on a few goals 10 years ahead
+A1SF8B,a1sf8b,Work hard to reach goals 10 years ahead
+A1SF8C,a1sf8c,Do what can to reach goals 10 years ahead
+A1SG1A,a1sg1a,Calm in late 20s
+A1SG1B,a1sg1b,Calm in late 40s
+A1SG1C,a1sg1c,Calm in late 60s
+A1SG1D,a1sg1d,Willing to learn in late 20s
+A1SG1E,a1sg1e,Willing to learn in late 40s
+A1SG1F,a1sg1f,Willing to learn in late 60s
+A1SG1G,a1sg1g,Energetic in late 20s
+A1SG1H,a1sg1h,Energetic in late 40s
+A1SG1I,a1sg1i,Energetic in late 60s
+A1SG1J,a1sg1j,Caring in late 20s
+A1SG1K,a1sg1k,Caring in late 40s
+A1SG1L,a1sg1l,Caring in late 60s
+A1SG1M,a1sg1m,Wise in late 20s
+A1SG1N,a1sg1n,Wise in late 40s
+A1SG1O,a1sg1o,Wise in late 60s
+A1SG1P,a1sg1p,Knowledgeable in late 20s
+A1SG1Q,a1sg1q,Knowledgeable in late 40s
+A1SG1R,a1sg1r,Knowledgeable in late 60s
+A1SG2A,a1sg2a,Rate physical health in late 20s
+A1SG2B,a1sg2b,Rate physical health in late 40s
+A1SG2C,a1sg2c,Rate physical health in late 60s
+A1SG2D,a1sg2d,Rate contribution to others in late 20s
+A1SG2E,a1sg2e,Rate contribution to others in late 40s
+A1SG2F,a1sg2f,Rate contribution to others in late 60s
+A1SG2G,a1sg2g,Rate marriage/relation in late 20s
+A1SG2H,a1sg2h,Rate marriage/relation in late 40s
+A1SG2I,a1sg2i,Rate marriage/relation in late 60s
+A1SG2J,a1sg2j,Rate relation with children in late 20s
+A1SG2K,a1sg2k,Rate relation with children in late 40s
+A1SG2L,a1sg2l,Rate relation with children in late 60s
+A1SG2M,a1sg2m,Rate work situation in late 20s
+A1SG2N,a1sg2n,Rate work situation in late 40s
+A1SG2O,a1sg2o,Rate work situation in late 60s
+A1SG2P,a1sg2p,Rate finance situation in late 20s
+A1SG2Q,a1sg2q,Rate finance situation in late 40s
+A1SG2R,a1sg2r,Rate finance situation in late 60s
+A1SG2S,a1sg2s,Rate overall life in late 20s
+A1SG2T,a1sg2t,Rate overall life in late 40s
+A1SG2U,a1sg2u,Rate overall life in late 60s
+A1SG3,a1sg3,Age feel like most of the time
+A1SG4,a1sg4,Age would like to be
+A1SG5,a1sg5,Age men enter middle age
+A1SG6,a1sg6,Age men no longer middle age
+A1SG7,a1sg7,Age women enter middle age
+A1SG8,a1sg8,Age women no longer middle age
+A1SH1,a1sh1,Career psychological turning point
+A1SH2,a1sh2,Upset for friend psychological turning point
+A1SH3,a1sh3,Happy for friend psychological turning point
+A1SH4,a1sh4,Upset for self psychological turning point
+A1SH5,a1sh5,Happy for self psychological turning point
+A1SH6,a1sh6,Fulfill dream
+A1SH7,a1sh7,Give up dream
+A1SI1A1,a1si1a1,Working full time 10 years ago
+A1SI1A2,a1si1a2,Working full time now
+A1SI1A3,a1si1a3,Working full time 10 years ahead
+A1SI1B1,a1si1b1,Working part time 10 years ago
+A1SI1B2,a1si1b2,Working part time now
+A1SI1B3,a1si1b3,Working part time 10 years ahead
+A1SI1C1,a1si1c1,Self employed 10 years ago
+A1SI1C2,a1si1c2,Self employed now
+A1SI1C3,a1si1c3,Self employed 10 years ahead
+A1SI1D1,a1si1d1,Volunteer 15 hours+ 10 years ago
+A1SI1D2,a1si1d2,Volunteer 15 hours+ now
+A1SI1D3,a1si1d3,Volunteer 15 hours+ 10 years ahead
+A1SI1E1,a1si1e1,Full time student 10 years ago
+A1SI1E2,a1si1e2,Full time student now
+A1SI1E3,a1si1e3,Full time student 10 years ahead
+A1SI1F1,a1si1f1,Part time student 10 years ago
+A1SI1F2,a1si1f2,Part time student now
+A1SI1F3,a1si1f3,Part time student 10 years ahead
+A1SI1G1,a1si1g1,Primary caregiver for own kid 10 years ago
+A1SI1G2,a1si1g2,Primary caregiver for own kid now
+A1SI1G3,a1si1g3,Primary caregiver for own kid 10 years ahead
+A1SI1H1,a1si1h1,Full time homemaker 10 years ago
+A1SI1H2,a1si1h2,Full time homemaker now
+A1SI1H3,a1si1h3,Full time homemaker 10 years ahead
+A1SI1I1,a1si1i1,Unemployed 10 years ago
+A1SI1I2,a1si1i2,Unemployed now
+A1SI1I3,a1si1i3,Unemployed 10 years ahead
+A1SI1J1,a1si1j1,Sick leave 10 years ago
+A1SI1J2,a1si1j2,Sick leave now
+A1SI1J3,a1si1j3,Sick leave 10 years ahead
+A1SI1K1,a1si1k1,Retired 10 years ago
+A1SI1K2,a1si1k2,Retired now
+A1SI1K3,a1si1k3,Retired 10 years ahead
+A1SI2,a1si2,Rate current work situation
+A1SI3,a1si3,Rate work situation 10 years ago
+A1SI4,a1si4,Rate work situation 10 years future
+A1SI5,a1si5,Rate amount control over work situation
+A1SI6,a1si6,Rate thought/effort put into work
+A1SI7,a1si7,Age first worked paid job 6 months or more
+A1SI8,a1si8,Number of years employed at least 6 months of year
+A1SI9,a1si9,Number of years full-time employed
+A1SI10,a1si10,Unemployed longest period (number of weeks)
+A1SI11,a1si11,Main reason unemployed during longest period
+A1SI12A,a1si12a,Employment status in 1994
+A1SI12B,a1si12b,Employment status in 1993
+A1SI12C,a1si12c,Employment status in 1992
+A1SI12D,a1si12d,Employment status in 1991
+A1SI12E,a1si12e,Employment status in 1990
+A1SI12F,a1si12f,Employment status in 1989
+A1SI12G,a1si12g,Employment status in 1988
+A1SI12H,a1si12h,Employment status in 1987
+A1SI12I,a1si12i,Employment status in 1986
+A1SI12J,a1si12j,Employment status in 1985
+A1SI13A,a1si13a,Work paid number of weeks (12 months)
+A1SI13B,a1si13b,Unemployed number of weeks (12 months)
+A1SI13C,a1si13c,Unpaid leave number of weeks (12 months)
+A1SI13D,a1si13d,Not working or looking number of weeks (12 months)
+A1SI14,a1si14,Work for pay currently
+A1SI15A,a1si15a,Work days in average week (frequency)
+A1SI15B,a1si15b,Work evenings in average week (frequency)
+A1SI15C,a1si15c,Work nights in average week (frequency)
+A1SI15D,a1si15d,Work weekends in average week (frequency)
+A1SI16,a1si16,Time begin job - military time (HHMM)
+A1SI17,a1si17,Time end job - military time (HHMM)
+A1SI18,a1si18,Job commute time - number of minutes
+A1SI19,a1si19,Problem with someone at work (12 months)
+A1SI20,a1si20,Other ongoing stress at work (12 months)
+A1SI21,a1si21,Chances could keep job for next 2 years
+A1SI22,a1si22,Job effect on physical health
+A1SI23,a1si23,Job effect on emotional/mental health
+A1SI24,a1si24,Accident/injury risk at job
+A1SI25,a1si25,Number of times injured at job in the past five years
+A1SI26,a1si26,Seriousness of job injury
+A1SI27A,a1si27a,Job reduces effort to activities at home
+A1SI27B,a1si27b,Job stress makes irritable at home
+A1SI27C,a1si27c,Job makes too tired to do things at home
+A1SI27D,a1si27d,Job problems distract you at home
+A1SI27E,a1si27e,Job helps to deal with issues at home
+A1SI27F,a1si27f,Job makes you more interesting at home
+A1SI27G,a1si27g,Job makes you better companion at home
+A1SI27H,a1si27h,Job skills useful at home
+A1SI27I,a1si27i,Home responsibilities reduce job effort
+A1SI27J,a1si27j,Personal worries distract you at job
+A1SI27K,a1si27k,Home chores prevent sleep to do job
+A1SI27L,a1si27l,Home stress makes irritable at job
+A1SI27M,a1si27m,Talk someone at home helps job problems
+A1SI27N,a1si27n,Providing home makes work harder at job
+A1SI27O,a1si27o,Home love makes you confident at job
+A1SI27P,a1si27p,Home helps to relax for next workday
+A1SPOSWF,a1sposwf,Positive Work to Family Spillover
+A1SNEGWF,a1snegwf,Negative Work to Family Spillover
+A1SPOSFW,a1sposfw,Positive Family to Work Spillover
+A1SNEGFW,a1snegfw,Negative Family to Work Spillover
+A1SI28A,a1si28a,Work intensively at job
+A1SI28B,a1si28b,Learn new things at job
+A1SI28C,a1si28c,Work demands high skill level
+A1SI28D,a1si28d,Initiate things at job
+A1SI28E,a1si28e,Choice how to do work tasks
+A1SI28F,a1si28f,Choice what tasks to do at work
+A1SI28G,a1si28g,Say in work decisions
+A1SI28H,a1si28h,Say in planning work environment
+A1SI28I,a1si28i,Job provides variety interesting things
+A1SI28J,a1si28j,Work demands hard to combine
+A1SI29A,a1si29a,Too many demands at job (12 months)
+A1SI29B,a1si29b,Control amount of time at tasks at job (12 months)
+A1SI29C,a1si29c,Time to get everything done at job (12 months)
+A1SI29D,a1si29d,Lot of interruptions at job (12 months)
+A1SJCSD,a1sjcsd,Skill Discretion (Job Characteristics)
+A1SJCDA,a1sjcda,Decision Authority (Job Characteristics)
+A1SJCDS,a1sjcds,Demands Scale (Job Characteristics)
+A1SJCCS,a1sjccs,Coworker Support (Job Characteristics)
+A1SJCSS,a1sjcss,Supervisor Support (Job Characteristics)
+A1SI30A,a1si30a,Coworker help/support
+A1SI30B,a1si30b,Coworker listen to work-related problems
+A1SI30C,a1si30c,Supervisor gives needed information
+A1SI30D,a1si30d,Supervisor help/support
+A1SI30E,a1si30e,Supervisor listen to work-related problems
+A1SI31A,a1si31a,Feel cheated about good job chances
+A1SI31B,a1si31b,Feel pride for work at job
+A1SI31C,a1si31c,Others respect my work at job
+A1SI31D,a1si31d,Others have more rewarding jobs
+A1SI31E,a1si31e,Had opportunities as good as others
+A1SI31F,a1si31f,Others have better jobs than me
+A1SPIWOR,a1spiwor,Perceived Inequality in Work
+A1SI32A,a1si32a,Too many demands at home (12 months)
+A1SI32B,a1si32b,Control amount of time at tasks at home (12 months)
+A1SI32C,a1si32c,Time to get everything done at home (12 months)
+A1SI32D,a1si32d,Lot of interruptions at home (12 months)
+A1SI33A,a1si33a,Feel pride about work at home
+A1SI33B,a1si33b,Feel others respect my work at home
+A1SI33C,a1si33c,Paid work more rewarding than home work
+A1SI34A,a1si34a,Feel pride about unpaid work in community
+A1SI34B,a1si34b,Feel others respect my community work
+A1SI34C,a1si34c,Paid work more rewarding than volunteer
+A1SJ1,a1sj1,Rate current financial situation
+A1SJ2,a1sj2,Rate financial situation 10 years ago
+A1SJ3,a1sj3,Rate financial situation 10 years future
+A1SJ4,a1sj4,Rate control over financial situation
+A1SJ5,a1sj5,Rate thought/effort into financial situation
+A1SJ6,a1sj6,"Money to meet needs (more, enough, not enough)"
+A1SJ7,a1sj7,How difficult to pay monthly bills
+A1SJ8,a1sj8,Respondent's wages last calendar year
+A1SJ8M,a1sj8m,Mean respondent's wages last calendar year
+A1SJ9,a1sj9,Spouse/partner's wages last calendar year
+A1SJ9M,a1sj9m,Mean spouse/partner's wages last calendar year
+A1SHWEARN,a1shwearn,Respondent's and spouse/partner's earnings
+A1SJ10,a1sj10,Other family member's wages last calendar year
+A1SJ10M,a1sj10m,Mean other family member's wages last calendar year
+A1SJ11,a1sj11,Household income from social security (12 months)
+A1SJ11M,a1sj11m,Mean household income from social security (12 months)
+A1SJ12,a1sj12,Total household income from government assistance (12 months)
+A1SJ12M,a1sj12m,Mean total household income from government assistance (12 months)
+A1SJ13,a1sj13,Household all other income (12 months)
+A1SJ13M,a1sj13m,Mean household all other income (12 months)
+A1SHHTOT,a1shhtot,"Household total income from wage, pension, social security, and other sources"
+A1SJ14,a1sj14,Money left or owed if cashed in and paid off debt
+A1SJ15,a1sj15,Amount you would owe or have
+A1SASSET,a1sasset,Assets in $100
+A1SJ16,a1sj16,Respondent employer/union pension plan currently
+A1SJ17,a1sj17,Respondent has own traditional/Keogh/Roth IRA account
+A1SJ18,a1sj18,Respondent has other pension/retirement plans
+A1SJ19,a1sj19,Spouse/partner employer/union pension plan currently
+A1SK1,a1sk1,Rate current contribution to others welfare
+A1SK2,a1sk2,Rate contribution to others welfare 10 years ago
+A1SK3,a1sk3,Rate contribution to others welfare 10 years future
+A1SK4,a1sk4,Rate control over contribution to others welfare
+A1SK5,a1sk5,Rate thought/effort into contribution to others welfare
+A1SK6A,a1sk6a,Made unique contributions to society
+A1SK6B,a1sk6b,Important skills to pass along to others
+A1SK6C,a1sk6c,Many people come to you for advice
+A1SK6D,a1sk6d,Feel other people need you
+A1SK6E,a1sk6e,Good influence on others' lives
+A1SK6F,a1sk6f,Like to teach things to people
+A1SGENER,a1sgener,Loyola Generativity Scale
+A1SK7A,a1sk7a,Drop plan when children troubled
+A1SK7B,a1sk7b,Contact adult children regularly
+A1SK7C,a1sk7c,Raise children for friend if died
+A1SK7D,a1sk7d,Drop plan when spouse troubled
+A1SK7E,a1sk7e,Take adult children back into home
+A1SK7F,a1sk7f,Take friend into home
+A1SK7G,a1sk7g,Call parents regularly
+A1SK7H,a1sk7h,Give money to friend
+A1SK7I,a1sk7i,Serve on a jury if called
+A1SK7J,a1sk7j,Keep informed about national news
+A1SK7K,a1sk7k,Testify in court for accident
+A1SK7L,a1sk7l,Vote in local/national election
+A1SK7M,a1sk7m,Do more than others on job
+A1SK7N,a1sk7n,Work hard even if dislike employer
+A1SK7O,a1sk7o,Cancel visit friend to work overtime
+A1SK7P,a1sk7p,Pay more so everyone had healthcare
+A1SK7Q,a1sk7q,Volunteer for social causes
+A1SK7R,a1sk7r,Collect contributions for medical research
+A1SK7S,a1sk7s,Vote for law help others but increase my tax
+A1SPRIOB,a1spriob,Primary obligation - 3 factor model
+A1SCVOB3,a1scvob3,Civic and Job obligation - 3 factor model
+A1SCVOB5,a1scvob5,Civic obligation - 5 factor model
+A1SWKOB,a1swkob,Work obligation - 5 factor model
+A1SALTRU,a1saltru,Altruism obligation - 3 factor model
+A1SK8A,a1sk8a,Volunteer hospital/nursing home (hours/month)
+A1SK8B,a1sk8b,Volunteer school/other youth related work (hours/month)
+A1SK8C,a1sk8c,Volunteer political organization/causes (hours/month)
+A1SK8D,a1sk8d,Volunteer other organization/causes (hours/month)
+A1SK9A,a1sk9a,Attend religious service (numbers/month)
+A1SK9B,a1sk9b,Attend religious meeting (numbers/month)
+A1SK9C,a1sk9c,Attend meeting unions/professional groups (numbers/month)
+A1SK9D,a1sk9d,Attend meeting sports/social groups (numbers/month)
+A1SK9E,a1sk9e,Attend meeting other groups (numbers/month)
+A1SK10A,a1sk10a,Give spouse/partner emotional support (hours/month)
+A1SK10B,a1sk10b,Give parents emotional support (hours/month)
+A1SK10C,a1sk10c,Give in-laws emotional support (hours/month)
+A1SK10D,a1sk10d,Give children emotional support (hours/month)
+A1SK10E,a1sk10e,Give other family/friends emotional support (hours/month)
+A1SK10F,a1sk10f,Give anyone else emotional support (hours/month)
+A1SPSUPE,a1spsupe,Monthly hours give support/advice
+A1SK11A,a1sk11a,Receive emotional support spouse/partner (hours/month)
+A1SK11B,a1sk11b,Receive emotional support parents (hours/month)
+A1SK11C,a1sk11c,Receive emotional support in-laws (hours/month)
+A1SK11D,a1sk11d,Receive emotional support children (hours/month)
+A1SK11E,a1sk11e,Receive emotional support other family/friends (hours/month)
+A1SK11F,a1sk11f,Receive emotional support anyone else (hours/month)
+A1SRSUPE,a1srsupe,Monthly hours receive support/advice
+A1SK12A,a1sk12a,Give unpaid assistance parents (hours/month)
+A1SK12B,a1sk12b,Give unpaid assistance in-laws (hours/month)
+A1SK12C,a1sk12c,Give unpaid assistance children (hours/month)
+A1SK12D,a1sk12d,Give unpaid assistance other family/friends (hours/month)
+A1SK12E,a1sk12e,Give unpaid assistance anyone else (hours/month)
+A1SPSUPI,a1spsupi,Monthly hours give assistance family/friends
+A1SK13A,a1sk13a,Receive unpaid assistance parents (hours/month)
+A1SK13B,a1sk13b,Receive unpaid assistance in-laws (hours/month)
+A1SK13C,a1sk13c,Receive unpaid assistance children (hours/month)
+A1SK13D,a1sk13d,Receive unpaid assistance other family/friends (hours/month)
+A1SK13E,a1sk13e,Receive unpaid assistance community volunteers (hours/month)
+A1SK13F,a1sk13f,Receive unpaid assistance religious groups (hours/month)
+A1SK13G,a1sk13g,Receive unpaid assistance other organization (hours/month)
+A1SK13H,a1sk13h,Receive unpaid assistance government groups (hours/month)
+A1SRSUIF,a1srsuif,Monthly hours receive assistance family/friends
+A1SRSUIO,a1srsuio,Monthly hours receive assistance non-family/friends
+A1SK14A,a1sk14a,Financial support to parents (dollars/month)
+A1SK14B,a1sk14b,Financial support to in-laws (dollars/month)
+A1SK14C,a1sk14c,Financial support to children (dollars/month)
+A1SK14D,a1sk14d,Financial support to other family/friends (dollars/month)
+A1SK14E,a1sk14e,Financial support to any other individuals (dollars/month)
+A1SK14F,a1sk14f,Financial support to religious groups (dollars/month)
+A1SK14G,a1sk14g,Financial support to political organizations (dollars/month)
+A1SK14H,a1sk14h,Financial support to other organizations (dollars/month)
+A1SK15A,a1sk15a,Financial support from parents (dollars/month)
+A1SK15B,a1sk15b,Financial support from in-laws (dollars/month)
+A1SK15C,a1sk15c,Financial support from children (dollars/month)
+A1SK15D,a1sk15d,Financial support from other family/friends (dollars/month)
+A1SK15E,a1sk15e,Financial support from religious groups (dollars/month)
+A1SK15F,a1sk15f,Financial support from other non-governmental organizations (dollars/month)
+A1SK15G,a1sk15g,Financial support from any government group (dollars/month)
+A1SK16A,a1sk16a,Lived with aging parent (12 months)
+A1SK16B,a1sk16b,Lived with adult children (12 months)
+A1SK16C,a1sk16c,Lived with grandchildren (12 months)
+A1SK16D,a1sk16d,Lived with other friends/family (12 months)
+A1SK17A,a1sk17a,World is too complex for me
+A1SK17B,a1sk17b,Do not feel I belong to community
+A1SK17C,a1sk17c,People who do a favor expect nothing
+A1SK17D,a1sk17d,Have something valuable to give world
+A1SK17E,a1sk17e,World is becoming better place
+A1SK17F,a1sk17f,Feel close to others in community
+A1SK17G,a1sk17g,Daily activities not worthwhile for community
+A1SK17H,a1sk17h,Cannot make sense of world
+A1SK17I,a1sk17i,Society stopped making progress
+A1SK17J,a1sk17j,People do not care about others problems
+A1SK17K,a1sk17k,Community is source of comfort
+A1SK17L,a1sk17l,Easy to predict society future
+A1SK17M,a1sk17m,Society not improving for people like me
+A1SK17N,a1sk17n,Believe people are kind
+A1SK17O,a1sk17o,Have nothing important for society
+A1SSWBMS,a1sswbms,Meaningfulness of Society (Social Well-Being)
+A1SSWBSI,a1sswbsi,Social Integration (Social Well-Being)
+A1SSWBAO,a1sswbao,Acceptance of Others (Social Well-Being)
+A1SSWBSC,a1sswbsc,Social Contribution (Social Well-Being)
+A1SSWBSA,a1sswbsa,Social Actualization (Social Well-Being)
+A1SL1,a1sl1,Contact with neighbors (frequency)
+A1SL2,a1sl2,Conversation/get together with neighbor (frequency)
+A1SL3,a1sl3,Years lived in current neighborhood
+A1SL4,a1sl4,"Own home outright, mortgage, or rent"
+A1SL5A,a1sl5a,Safe alone in neighborhood daytime
+A1SL5B,a1sl5b,Safe alone in neighborhood at night
+A1SL5C,a1sl5c,Home as nice as most people
+A1SL5D,a1sl5d,Proud of my home
+A1SL5E,a1sl5e,Can call neighbor for help if needed
+A1SL5F,a1sl5f,Others live in better neighborhood
+A1SL5G,a1sl5g,Neighbors trust each other
+A1SL5H,a1sl5h,Do not like to invite others to home
+A1SL5I,a1sl5i,Buildings/streets kept in good repair
+A1SL5J,a1sl5j,Feel good about home/neighborhood
+A1SL5K,a1sl5k,Neighborhood is kept clean
+A1SL5L,a1sl5l,Hopeless to improve home/neighborhood
+A1SHOMET,a1shomet,Perceived Quality of Neighborhood
+A1SPIHOM,a1spihom,Perceived Inequality in Home
+A1SM1,a1sm1,Contact with family members (frequency)
+A1SM2,a1sm2,Family members really care about you
+A1SM3,a1sm3,Family members understand way you feel
+A1SM4,a1sm4,Rely on family for help with problem
+A1SM5,a1sm5,Open up to family about worries
+A1SM6,a1sm6,Family members make too many demands
+A1SM7,a1sm7,Family members criticize you
+A1SM8,a1sm8,Family members let you down
+A1SM9,a1sm9,Family members get on your nerves
+A1SFAMSO,a1sfamso,Family Affectual Solidarity
+A1SKINPO,a1skinpo,Support from Family
+A1SKINNE,a1skinne,Strain from Family
+A1SM10,a1sm10,Contact with friends (frequency)
+A1SM11,a1sm11,Friends really care about you
+A1SM12,a1sm12,Friends understand way you feel
+A1SM13,a1sm13,Rely on friends for help with problem
+A1SM14,a1sm14,Open up to friends about worries
+A1SFDSOL,a1sfdsol,Friendship Affectual Solidarity
+A1SM15,a1sm15,Friends make too many demands on you
+A1SM16,a1sm16,Friends criticize you
+A1SM17,a1sm17,Friends let you down
+A1SM18,a1sm18,Friends get on your nerves
+A1SFDSPO,a1sfdspo,Support from Friends
+A1SFDSNE,a1sfdsne,Strain from Friends
+A1SM19,a1sm19,Friends/relative asks for advice/help
+A1SM20,a1sm20,You ask friend/relative for advice/help
+A1SM21A1,a1sm21a1,Spouse/partner chronic disease/disability (12 months)
+A1SM21A2,a1sm21a2,Parents chronic disease/disability (12 months)
+A1SM21A3,a1sm21a3,Children chronic disease/disability (12 months)
+A1SM21B1,a1sm21b1,Spouse/partner frequent minor illnesses (12 months)
+A1SM21B2,a1sm21b2,Parents frequent minor illnesses (12 months)
+A1SM21B3,a1sm21b3,Children frequent minor illnesses (12 months)
+A1SM21C1,a1sm21c1,Spouse/partner emotional problems (12 months)
+A1SM21C2,a1sm21c2,Parents emotional problems (12 months)
+A1SM21C3,a1sm21c3,Children emotional problems (12 months)
+A1SM21D1,a1sm21d1,Spouse/partner alcohol/substance problems (12 months)
+A1SM21D2,a1sm21d2,Parents alcohol/substance problems (12 months)
+A1SM21D3,a1sm21d3,Children alcohol/substance problems (12 months)
+A1SM21E1,a1sm21e1,Spouse/partner financial problems (12 months)
+A1SM21E2,a1sm21e2,Parents financial problems (12 months)
+A1SM21E3,a1sm21e3,Children financial problems (12 months)
+A1SM21F1,a1sm21f1,Spouse/partner school/work problems (12 months)
+A1SM21F2,a1sm21f2,Parents school/work problems (12 months)
+A1SM21F3,a1sm21f3,Children school/work problems (12 months)
+A1SM21G1,a1sm21g1,Spouse/partner difficult find/keep job (12 months)
+A1SM21G2,a1sm21g2,Parents difficult find/keep job (12 months)
+A1SM21G3,a1sm21g3,Children difficult find/keep job (12 months)
+A1SM21H1,a1sm21h1,Spouse/partner marital/relationship problems (12 months)
+A1SM21H2,a1sm21h2,Parents marital/relationship problems (12 months)
+A1SM21H3,a1sm21h3,Children marital/relationship problems (12 months)
+A1SM21I1,a1sm21i1,Spouse/partner legal problems (12 months)
+A1SM21I2,a1sm21i2,Parents legal problems (12 months)
+A1SM21I3,a1sm21i3,Children legal problems (12 months)
+A1SM21J1,a1sm21j1,Spouse/partner difficult get along with others (12 months)
+A1SM21J2,a1sm21j2,Parents difficult get along with others (12 months)
+A1SM21J3,a1sm21j3,Children difficult get along with others (12 months)
+A1SN1,a1sn1,Rate current relationship with children
+A1SN2,a1sn2,Rate relationship with children 10 years ago
+A1SN3,a1sn3,Rate relationship with children 10 years future
+A1SN4,a1sn4,Rate control over relationship with children
+A1SN5,a1sn5,Rate thought/effort relationship with children
+A1SN6A,a1sn6a,Feel good about opportunities for children
+A1SN6B,a1sn6b,Family life with children more negative
+A1SN6C,a1sn6c,Problems with children caused shame
+A1SN6D,a1sn6d,No resources for fun things with children
+A1SN6E,a1sn6e,Do for children as much as others
+A1SN6F,a1sn6f,Pride about what able to do for children
+A1SPIFAM,a1spifam,Perceived Inequality in Family
+A1SN7A1,a1sn7a1,Respondent stop working to care for children
+A1SN7A2,a1sn7a2,Spouse/partner stop working to care for children
+A1SN7B1,a1sn7b1,Respondent cut back hours to care for children
+A1SN7B2,a1sn7b2,Spouse/partner cut back hours to care for children
+A1SN7C1,a1sn7c1,Respondent work longer hours meet child needs
+A1SN7C2,a1sn7c2,Spouse/partner work longer hours meet child needs
+A1SN7D1,a1sn7d1,Respondent switch to different job for children
+A1SN7D2,a1sn7d2,Spouse/partner switch to different job for children
+A1SN8,a1sn8,Days respondent change schedule for childcare
+A1SN9,a1sn9,Days spouse/partner change schedule for childcare
+A1SN10,a1sn10,Provide childcare stressful (school year)
+A1SN11,a1sn11,Provide childcare stressful (summer)
+A1SP1,a1sp1,Rate current marriage/relationship
+A1SP2,a1sp2,Rate marriage/relationship 10 years ago
+A1SP3,a1sp3,Rate marriage/relationship 10 years future
+A1SP4,a1sp4,Rate control over marriage/relationship
+A1SP5,a1sp5,Rate thought/effort marriage/relationship
+A1SP6,a1sp6,Describe marital relationship
+A1SP7,a1sp7,Relationship in trouble (12 months)
+A1SP8,a1sp8,Chances eventually separate from spouse/partner
+A1SP9A,a1sp9a,Disagree about money matters with spouse/partner
+A1SP9B,a1sp9b,Disagree about household tasks with spouse/partner
+A1SP9C,a1sp9c,Disagree about leisure activities with spouse/partner
+A1SSPDIS,a1sspdis,Spouse/Partner Disagreement
+A1SMARRS,a1smarrs,Marital risk
+A1SP10,a1sp10,Good talk with spouse/partner (frequency)
+A1SP11,a1sp11,Spouse/partner really cares about you
+A1SP12,a1sp12,Spouse/partner understands way you feel
+A1SP13,a1sp13,Spouse/partner appreciates you
+A1SP14,a1sp14,Rely spouse/partner for help with serious problem
+A1SP15,a1sp15,Open up to spouse/partner about worries
+A1SP16,a1sp16,"Can relax, be yourself around spouse/partner"
+A1SSPSOL,a1sspsol,Spouse/Partner Affectual Solidarity
+A1SSPEMP,a1sspemp,Support from Spouse/Partner
+A1SP17,a1sp17,Spouse/partner makes too many demands on you
+A1SP18,a1sp18,Spouse/partner makes you feel tense
+A1SP19,a1sp19,Spouse/partner argues with you
+A1SP20,a1sp20,Spouse/partner criticizes you
+A1SP21,a1sp21,Spouse/partner lets you down
+A1SP22,a1sp22,Spouse/partner gets on your nerves
+A1SSPCRI,a1sspcri,Strain from Spouse/Partner
+A1SP23,a1sp23,Who does more household chores
+A1SP24,a1sp24,Respondent does household chores (hours/week)
+A1SP25,a1sp25,Spouse/partner does household chores (hours/week)
+A1SP26,a1sp26,How fair are household chores to respondent
+A1SP27,a1sp27,How fair are household chores to spouse/partner
+A1SP28A,a1sp28a,Make decisions with spouse/partner as a team
+A1SP28B,a1sp28b,Talk with spouse/partner makes things better
+A1SP28C,a1sp28c,Talk with spouse/partner before make plans
+A1SP28D,a1sp28d,Ask spouse/partner for advice about issues
+A1SSPDEC,a1sspdec,Spouse/Partner Decision Making
+A1SP29,a1sp29,Describe spouse/partner physical health currently
+A1SP30,a1sp30,Describe spouse/partner mental health currently
+A1SP31,a1sp31,"Spouse/partner currently working for pay, either full-time or part-time?"
+A1SP32,a1sp32,Hours per week spouse/partner works at main job
+A1SP33,a1sp33,Hours per week spouse/partner works at other job
+A1SP34A,a1sp34a,Spouse/partner works days in average week (frequency)
+A1SP34B,a1sp34b,Spouse/partner works evenings in average week (frequency)
+A1SP34C,a1sp34c,Spouse/partner works nights in average week (frequency)
+A1SP34D,a1sp34d,Spouse/partner works weekends in average week (frequency)
+A1SP35,a1sp35,Spouse/partner time begin job - military time (HHMM)
+A1SP36,a1sp36,Spouse/partner time end job - military time (HHMM)
+A1SP37,a1sp37,Spouse/partner job commute time - number of minutes
+A1SP38,a1sp38,Spouse/partner chances could keep job for next 2 years
+A1SQ1,a1sq1,Rate sexual aspect of life currently
+A1SQ2,a1sq2,Rate sexual aspect of life 10 years ago
+A1SQ3,a1sq3,Rate sexual aspect of life 10 years future
+A1SQ4,a1sq4,Rate control over sexual aspect of life
+A1SQ5,a1sq5,Rate thought/effort sexual aspect of life
+A1SQ6,a1sq6,Number of sex partners (past year)
+A1SQ7,a1sq7,Describe sexual orientation
+A1SQ8,a1sq8,Sex frequency (past 6 months)
+A1SR1,a1sr1,Religious preference 1st choice
+A1SR1A,a1sr1a,Christian religion
+A1SR2A,a1sr2a,How religious are you
+A1SR2B,a1sr2b,How spiritual are you
+A1SR2C,a1sr2c,How superstitious are you
+A1SR2D,a1sr2d,Religion important in your life
+A1SR2E,a1sr2e,Spirituality important in your life
+A1SR2F,a1sr2f,Religious instruction important for children
+A1SR2G,a1sr2g,Identify with your religious group
+A1SR2H,a1sr2h,Prefer people of same religion
+A1SR2I,a1sr2i,Important to marry in same religion
+A1SR3,a1sr3,Explore different religions or stick to one
+A1SR4,a1sr4,Attend religious/spiritual services (frequency)
+A1SR5,a1sr5,Seek comfort through religion when problem
+A1SR6,a1sr6,Look to religious beliefs make decisions
+A1SR7,a1sr7,Ever been born again
+A1SR8,a1sr8,Bible is actual Word of God
+A1SA1S1_1,a1sa1s1_1,American Indian/Native American
+A1SA1S1_2,a1sa1s1_2,Bahamas
+A1SA1S1_3,a1sa1s1_3,Canada
+A1SA1S1_4,a1sa1s1_4,Costa Rica
+A1SA1S1_5,a1sa1s1_5,Cuba
+A1SA1S1_6,a1sa1s1_6,Dominican Republic
+A1SA1S1_7,a1sa1s1_7,El Salvador
+A1SA1S1_8,a1sa1s1_8,Guatemala
+A1SA1S1_9,a1sa1s1_9,Haiti
+A1SA1S1_10,a1sa1s1_10,Honduras
+A1SA1S1_11,a1sa1s1_11,Jamaica
+A1SA1S1_12,a1sa1s1_12,Mexico
+A1SA1S1_13,a1sa1s1_13,Nicaragua
+A1SA1S1_14,a1sa1s1_14,Panama
+A1SA1S1_15,a1sa1s1_15,Puerto Rico
+A1SA1S1_16,a1sa1s1_16,St. Vincent
+A1SA1S1_17,a1sa1s1_17,Trinidad
+A1SA1S1_18,a1sa1s1_18,Central America/Caribbean
+A1SA1S1_19,a1sa1s1_19,North/Central America/Other
+A1SA1S1_20,a1sa1s1_20,Argentina
+A1SA1S1_21,a1sa1s1_21,Bolivia
+A1SA1S1_22,a1sa1s1_22,Brazil
+A1SA1S1_23,a1sa1s1_23,Chile
+A1SA1S1_24,a1sa1s1_24,Colombia
+A1SA1S1_25,a1sa1s1_25,Ecuador
+A1SA1S1_26,a1sa1s1_26,Peru
+A1SA1S1_27,a1sa1s1_27,Venezuela
+A1SA1S1_28,a1sa1s1_28,South America-no specific country
+A1SA1S1_29,a1sa1s1_29,South America/other
+A1SA1S1_30,a1sa1s1_30,Czechoslovakia
+A1SA1S1_31,a1sa1s1_31,England
+A1SA1S1_32,a1sa1s1_32,France
+A1SA1S1_33,a1sa1s1_33,Germany
+A1SA1S1_34,a1sa1s1_34,Greece
+A1SA1S1_35,a1sa1s1_35,Hungary
+A1SA1S1_36,a1sa1s1_36,Ireland
+A1SA1S1_37,a1sa1s1_37,Italy
+A1SA1S1_38,a1sa1s1_38,Norway
+A1SA1S1_39,a1sa1s1_39,Poland
+A1SA1S1_40,a1sa1s1_40,Portugal
+A1SA1S1_41,a1sa1s1_41,Russia or Soviet Union
+A1SA1S1_42,a1sa1s1_42,Scotland
+A1SA1S1_43,a1sa1s1_43,Spain
+A1SA1S1_44,a1sa1s1_44,Sweden
+A1SA1S1_45,a1sa1s1_45,The Netherlands
+A1SA1S1_46,a1sa1s1_46,Yugoslavia
+A1SA1S1_47,a1sa1s1_47,Eastern Europe-no specific country
+A1SA1S1_48,a1sa1s1_48,Western Europe-no specific country
+A1SA1S1_49,a1sa1s1_49,Europe/other
+A1SA1S1_50,a1sa1s1_50,China
+A1SA1S1_51,a1sa1s1_51,India
+A1SA1S1_52,a1sa1s1_52,Japan
+A1SA1S1_53,a1sa1s1_53,Korea
+A1SA1S1_54,a1sa1s1_54,Philippines
+A1SA1S1_55,a1sa1s1_55,Singapore
+A1SA1S1_56,a1sa1s1_56,Taiwan
+A1SA1S1_57,a1sa1s1_57,Thailand
+A1SA1S1_58,a1sa1s1_58,Asia-no specific country
+A1SA1S1_59,a1sa1s1_59,Asia/other
+A1SA1S1_60,a1sa1s1_60,Egypt
+A1SA1S1_61,a1sa1s1_61,Kenya
+A1SA1S1_62,a1sa1s1_62,Nigeria
+A1SA1S1_63,a1sa1s1_63,South Africa
+A1SA1S1_64,a1sa1s1_64,Zaire
+A1SA1S1_65,a1sa1s1_65,Zimbabwe
+A1SA1S1_66,a1sa1s1_66,Africa-no specific country
+A1SA1S1_67,a1sa1s1_67,Africa/other
+A1SA1S1_68,a1sa1s1_68,Iran
+A1SA1S1_69,a1sa1s1_69,Iraq
+A1SA1S1_70,a1sa1s1_70,Israel
+A1SA1S1_71,a1sa1s1_71,Lebanon
+A1SA1S1_72,a1sa1s1_72,Pakistan
+A1SA1S1_73,a1sa1s1_73,Saudi Arabia
+A1SA1S1_74,a1sa1s1_74,Middle East-no specific country
+A1SA1S1_75,a1sa1s1_75,Middle East/other
+A1SA1S1_76,a1sa1s1_76,Other Country 1
+A1SA1S1_77,a1sa1s1_77,Other Country 2
+A1SS2,a1ss2,Ethnic Group Best Describes Background
+A1SS3,a1ss3,Closely identify with same ethnicity
+A1SS4,a1ss4,Prefer to be with same ethnicity
+A1SS5,a1ss5,Important to marry same ethnicity
+A1SS6_1,a1ss6_1,White
+A1SS6_2,a1ss6_2,Black and/or African American
+A1SS6_3,a1ss6_3,Native American or Aleutian Islander
+A1SS6_4,a1ss6_4,Asian or Pacific Islander
+A1SS6_5,a1ss6_5,Other
+A1SS7,a1ss7,Which best describes your race?
+A1SS7R,a1ss7r,Revised A1SS7 variable using M2 race information to fill in missing data
+A1SS8,a1ss8,How closely identify with same race
+A1SS9,a1ss9,How much prefer to be with same race
+A1SS10,a1ss10,How important to marry same race
+A1SS11,a1ss11,US citizen
+A1SS12,a1ss12,How closely identify as an American
+A1SS13A,a1ss13a,Higher education discouraged (times)
+A1SS13B,a1ss13b,Denied scholarship (times)
+A1SS13C,a1ss13c,Not hired for a job (times)
+A1SS13D,a1ss13d,Not given job promotion (times)
+A1SS13E,a1ss13e,Fired (times)
+A1SS13F,a1ss13f,Prevented from rent/buying home (times)
+A1SS13G,a1ss13g,Prevented remain in neighborhood (times)
+A1SS13H,a1ss13h,Hassled by police (times)
+A1SS13I,a1ss13i,Denied a bank loan (times)
+A1SS13J,a1ss13j,Denied or provided inferior medical care (times)
+A1SS13K,a1ss13k,Denied or provided inferior service (times)
+A1SLFEDI,a1slfedi,Summary - Lifetime Discrimination
+A1SS14A,a1ss14a,Treated with less courtesy than others (frequency)
+A1SS14B,a1ss14b,Treated with less respect than others (frequency)
+A1SS14C,a1ss14c,Receive poorer service than others (frequency)
+A1SS14D,a1ss14d,People think you are not smart (frequency)
+A1SS14E,a1ss14e,People act afraid of you (frequency)
+A1SS14F,a1ss14f,People think you are dishonest (frequency)
+A1SS14G,a1ss14g,People think you not as good as they are (frequency)
+A1SS14H,a1ss14h,Called names or insulted (frequency)
+A1SS14I,a1ss14i,Threatened/harassed (frequency)
+A1SDAYDI,a1sdaydi,Daily Discrimination
+A1SS15_1,a1ss15_1,Age main reason for discrimination
+A1SS15_2,a1ss15_2,Gender main reason for discrimination
+A1SS15_3,a1ss15_3,Race main reason for discrimination
+A1SS15_4,a1ss15_4,Ethnicity main reason for discrimination
+A1SS15_5,a1ss15_5,Religion main reason for discrimination
+A1SS15_6,a1ss15_6,Height/weight main reason for discrimination
+A1SS15_7,a1ss15_7,Appearance main reason for discrimination
+A1SS15_8,a1ss15_8,Physical disability main reason for discrimination
+A1SS15_9,a1ss15_9,Sexual orientation main reason for discrimination
+A1SS15_10,a1ss15_10,Other main reason for discrimination
+A1SS16,a1ss16,Discrimination interfered with having full life
+A1SS17,a1ss17,Life has been harder because of discrimination
+A1ST1,a1st1,Rate life overall currently
+A1ST2,a1st2,Rate life overall 10 years ago
+A1ST3,a1st3,Rate life overall 10 years future
+A1ST4,a1st4,Rate control over life
+A1ST5,a1st5,Rate thought/effort into life overall
