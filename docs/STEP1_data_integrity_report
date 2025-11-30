@@ -1,0 +1,204 @@
+# STEP 1 DATA INTEGRITY REPORT
+### MIDUS 1 — Big Five Item-Level Cleaning, Scoring, & Validation  
+*(LPAmidus Project)*
+
+This document summarizes the diagnostic procedures used in **Step 1** of the MIDUS Big Five latent profile analysis workflow. The goal of Step 1 is to ensure that item-level personality data are **accurately extracted, cleaned, scored, and compared** with MIDUS-provided scale scores prior to LPA (Step 2).
+
+The workflow follows rigorously documented best practices in **psychometric data screening**, **scale construction**, **computational reproducibility**, and **latent variable modeling requirements**.
+
+---
+
+## 1. Metadata Extraction & Variable Identification
+
+**Purpose:**  
+To correctly identify all item-level personality indicators, retrieve variable labels and SPSS metadata, and document provenance.
+
+**Diagnostic procedures:**
+
+| Check | Purpose | Code |
+|-------|---------|------|
+| Extract SPSS labels via `haven::read_sav()` | Ensures correct mapping from SPSS variable names → R variable names | `var_meta <- tibble(...)` |
+| Save all variable labels | Transparency + future inspection | `write_csv(var_meta, "docs/midus_m1_variable_labels.csv")` |
+| Pattern-matching adjective items using label text | Ensures Big Five items are correctly located and complete | `find_items_by_label()` |
+
+**Justification / References:**  
+- ASA (American Statistical Association) recommendations for variable provenance  
+- Kline (2015), *Principles and Practice of Structural Equation Modeling*  
+- AERA/APA/NCME Standards (2014)
+
+---
+
+## 2. Consistency Check: Expected Number of Items per Trait
+
+**Purpose:**  
+Ensure MIDI adjective items per trait are correctly identified.
+
+| Trait | Expected Items | Check |
+|-------|----------------|-------|
+| Neuroticism | 4 | Count + compare |
+| Extraversion | 5 | Count + compare |
+| Openness | 7 | Count + compare |
+| Agreeableness | 5 | Count + compare |
+| Conscientiousness | 4 | Count + compare |
+
+**Code:**  
+```r
+expected_counts <- c(...)
+for (tr in names(big5_items)) {
+  message("Trait ", tr, ": found ", length(big5_items[[tr]]))
+}
+```
+
+**References:**  
+- Lachman & Weaver (1997) MIDI personality structure  
+- DeVellis (2016)  
+- Clark & Watson (2019) on item adequacy
+
+---
+
+## 3. Coding Validation & Reverse-Scoring Logic
+
+**Purpose:**  
+Ensure raw coding matches theoretical expectations and that reverse-keying is correct.
+
+### Checks performed:
+
+1. Inspect SPSS value labels  
+   ```r
+   val_labels(midus_raw[[example_item]])
+   ```
+2. Reverse raw coding (1–4 → 4–1)  
+   ```r
+   reverse_1to4 <- function(x) 5 - x
+   ```
+3. Detect conceptually reversed adjectives (*calm*, *careless*) using label text.
+
+### Why This Matters  
+Incorrect reverse-scoring leads to:
+
+- Trait score distortion  
+- Artificial factor structure  
+- Corrupted latent profiles
+
+**References:**  
+- Clark & Watson (2019)  
+- Widaman (1985)  
+- Curran (2000) on mixture-model sensitivity
+
+---
+
+## 4. Item Aggregation Using Missing-Data Rules
+
+**Purpose:**  
+Compute valid scale scores based on accepted psychometric aggregation practices.
+
+### Approach:
+- Mean score per trait  
+- Require ≥50% nonmissing items  
+- Missing otherwise
+
+**Code:**  
+```r
+compute_scale_mean(... min_frac = 0.5)
+```
+
+**References:**  
+- Enders (2010), *Applied Missing Data Analysis*  
+- Little & Rubin (2014)  
+- Ghorbani & Loken (2023)
+
+---
+
+## 5. Comparison Against MIDUS-Provisioned Scale Scores
+
+**Purpose:**  
+Validate the reconstructed item-based scales using MIDUS official scale scores.
+
+### Diagnostics:
+
+#### a. Descriptive Statistics
+```r
+psych::describe()
+```
+
+#### b. Correlations Between Item-Based and MIDUS Scales  
+```r
+cor(item_score, midus_scale)
+```
+
+Expected: **r ≈ .70–.90**
+
+#### c. Full correlation matrix  
+```r
+Hmisc::rcorr()
+```
+
+**Why This Matters:**  
+Ensures that computed scales faithfully reproduce the intended constructs.
+
+**References:**  
+- John & Srivastava (1999)  
+- Soto & John (2017)  
+- McCrae & Costa (1999)
+
+---
+
+## 6. Output Documentation & Provenance Capture
+
+**Purpose:**  
+Ensure transparency and reproducibility.
+
+### Outputs Created:
+
+| Folder | Output | Purpose |
+|--------|---------|----------|
+| `data_derived/` | LPA-ready RDS/CSV | Input to Step 2 |
+| `outputs/` | Descriptives + correlations | Diagnostic evidence |
+| `docs/` | Variable labels | Provenance + audit trail |
+
+**References:**  
+- Wilson et al. (2017) *Good Enough Practices in Scientific Computing*  
+- Peng (2011) *Reproducible Research in Computational Science*
+
+---
+
+# Summary
+
+Step 1 ensures that:
+
+- ✔ Big Five items are correctly identified  
+- ✔ Reverse-coding is accurate  
+- ✔ Scale scores are psychometrically valid  
+- ✔ Item vs. MIDUS scale agreement is established  
+- ✔ Outputs are fully reproducible and documented  
+- ✔ Data integrity meets requirements for latent profile modeling  
+
+---
+
+# References
+
+American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). *Standards for Educational and Psychological Testing.*
+
+Clark, L. A., & Watson, D. (2019). *Constructing validity: New developments in creating objective measuring instruments.*
+
+Curran, P. J., West, S. G., & Finch, J. F. (1996). *Psychological Methods.*
+
+DeVellis, R. F. (2016). *Scale development: Theory and applications.*
+
+Enders, C. K. (2010). *Applied Missing Data Analysis.*
+
+Ghorbani, R., & Loken, E. (2023). *Advances in Methods and Practices in Psychological Science.*
+
+John, O. P., & Srivastava, S. (1999).  
+
+Little, R. J., & Rubin, D. B. (2014). *Statistical Analysis with Missing Data.*
+
+Lachman, M. E., & Weaver, S. L. (1997). MIDI personality constructs.
+
+McCrae, R. R., & Costa, P. T. (1999).
+
+Peng, R. (2011). *Science*, 334(6060), 1226–1227.
+
+Soto, C. J., & John, O. P. (2017).
+
+Wilson, G. et al. (2017). *Good Enough Practices in Scientific Computing.*
