@@ -1,7 +1,7 @@
 # LPAmidus
 
 Research project examining personality profiles and work-related outcomes using
-public MIDUS (Midlife in the United States) survey data. A fully reproducible latent profile analysis of Big Five personality using the MIDUS national survey, linking person-centered personality profiles to work outcomes — job attitudes, stress, supervisory/leadership roles, economic indicators, and AI-related leadership competencies. 
+public MIDUS (Midlife in the United States) survey data. A fully reproducible latent profile analysis of Big Five+ personality using the MIDUS national survey, linking person-centered personality profiles to work outcomes — job attitudes, stress, supervisory/leadership roles, economic indicators, and AI-related leadership competencies. 
 
 ## Status
 
