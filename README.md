@@ -4,6 +4,8 @@ Companion materials for:
 
 > Monnot, M. J. (2026). *Afloat or adrift: A longitudinal study of latent personality profiles and future-of-work skills across midlife*. PsyArXiv. https://doi.org/10.31234/osf.io/9r6hd_v1
 
+Hosted PDF: https://mjmonnot.github.io/assets/pdfs/Monnot_2026_Afloat_or_Adrift_PsyArXiv_9r6hd.pdf
+
 **Author:** Matthew J. Monnot (Vocentive) · ORCID [0000-0002-9489-1777](https://orcid.org/0000-0002-9489-1777) · matt@vocentive.com
 
 ## What this repository is
